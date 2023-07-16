@@ -1,0 +1,2865 @@
+Package: blur-effect
+Version: 1.1.3-2
+Architecture: arm64
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 49
+Depends: libc6 (>= 2.27), libegl1, libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgles2, libglib2.0-0 (>= 2.12.0), libstdc++6 (>= 5.2)
+Homepage: http://www.deepin.org
+Priority: optional
+Section: devel
+Filename: pool/main/b/blur-effect/blur-effect_1.1.3-2_arm64.deb
+Size: 14284
+SHA256: c4b5dc0ab303610d30fcb64490f94081e725f49661a26e6bc282b68e14e27491
+SHA1: e8b8b3cb26abc26da4fca67683205f41f53073b9
+MD5sum: 9d83d642d6d38d83d58e31ccc409de16
+Description: image blurring utility as a deepin backend tool.
+ Off-screen image blurring utility using OpenGL ES 3.0.
+ As a component in DDE.
+
+Package: calamares-settings-ubuntu-common
+Source: calamares-settings-ubuntudde
+Version: 1.0.1
+Architecture: arm64
+Maintainer: Ubuntu DDE Developers <ubuntudde-dev@lists.launchpad.net>
+Installed-Size: 23
+Depends: calamares (>= 3.2.14~), squashfs-tools, python3
+Homepage: https://github.com/ubuntudde
+Priority: optional
+Section: devel
+Filename: pool/main/c/calamares-settings-ubuntudde/calamares-settings-ubuntu-common_1.0.1_arm64.deb
+Size: 4688
+SHA256: 013554b4ceb76df0af2d534a8651c06adbfd7b2a6710b19dfc3c36b1bbf759a6
+SHA1: 09e02320898534de5e06b3499d7479f353115ef6
+MD5sum: 093c887e6c79d700152e77560044cf29
+Description: Common Calamares Settings
+ This package contains the common Calamares settings for all flavors.
+ There is also a automirror Python script to set sources based on
+ geolocation.
+
+Package: calamares-settings-ubuntudde
+Version: 1.0.1
+Architecture: all
+Maintainer: Ubuntu DDE Developers <ubuntudde-dev@lists.launchpad.net>
+Installed-Size: 339
+Depends: calamares-settings-ubuntu-common (>= 1.0.1)
+Conflicts: calamares-settings-ubuntudde
+Homepage: https://github.com/ubuntudde
+Priority: optional
+Section: devel
+Filename: pool/main/c/calamares-settings-ubuntudde/calamares-settings-ubuntudde_1.0.1_all.deb
+Size: 301632
+SHA256: 64c8021d4720aface6c5f8fec809eff1f5aa3e210afc44081d56b7f730deb9d6
+SHA1: 2c06e23bc87502152e72de99a2ed11b9d4b759c1
+MD5sum: 038fadad1ee367ccd8a039bd71cfe282
+Description: UbuntuDDE Calamares Settings and Branding
+ This package contains the Calamares settings and branding for UbuntuDDE.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper UbuntuDDE desktop is installed with the
+ LXQt desktop environment.
+
+Package: dde-account-faces
+Version: 1.0.10-1
+Architecture: all
+Maintainer: lilongyu <leaeasy@gmail.com>
+Installed-Size: 1477
+Depends: accountsservice
+Conflicts: deepin-system-settings-module-account
+Priority: optional
+Section: misc
+Filename: pool/main/d/dde-account-faces/dde-account-faces_1.0.10-1_all.deb
+Size: 1151268
+SHA256: d0de2a9b395acc0c095ae200382ddacdbf35f27d51639ae5fdfe55679abdea57
+SHA1: 584f3cb04255fe15203c1bd932a8460c509c0745
+MD5sum: 2c131af3219ab21f6b44d1f4dc61dfd9
+Description: Deepin Account face Images
+ This package is Deepin Account face Images
+
+Package: dde-api
+Version: 5.0.0-1
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 71714
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcairo2 (>= 1.2.4), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.25.2), libglib2.0-0 (>= 2.61.2), libgtk-3-0 (>= 3.11.5), libpoppler-glib8 (>= 0.18.0), libpulse0 (>= 0.99.1), librsvg2-2 (>= 2.14.4), libx11-6, libxcursor1 (>> 1.1.2), libxfixes3, rfkill, locales, libcanberra-pulse, blur-effect, librsvg2-bin, fonts-noto-cjk, ttf-unifont, bc, fontconfig, coreutils, alsa-utils
+Homepage: http://www.deepin.org
+Priority: extra
+Section: devel
+Filename: pool/main/d/dde-api/dde-api_5.0.0-1_arm64.deb
+Size: 13441476
+SHA256: 69d788b3b6692f4eed01d0f9480241a756c5fa95cd3b6ffa21065a9b21ff9f07
+SHA1: 5a34d11a13937bed60b212d8e74c88a9f6b06ab5
+MD5sum: 60eb186997b9b40d00054ac3372d2f7b
+Description: Go-lang bingdings for dde-daemon
+ Deepin Go-lang bindings for dde-daemon
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: dde-api-dev
+Source: dde-api
+Version: 5.0.0-1
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 927
+Depends: golang-dlib-dev (>= 1.2.13), golang-gir-gobject-2.0-dev (>> 1.2.0+), golang-gir-gio-2.0-dev (>> 1.2.0+), golang-gir-glib-2.0-dev (>> 1.2.0+), golang-gir-gudev-1.0-dev (>> 1.2.0+), golang-github-linuxdeepin-go-x11-client-dev (>= 0.0.4), golang-github-linuxdeepin-go-dbus-factory-dev (>> 0.7.0+), golang-gopkg-alecthomas-kingpin.v2-dev, libxi-dev, libcanberra-dev, librsvg2-dev, libgtk-3-dev, libgdk-pixbuf2.0-dev, libcairo2-dev, libfreetype6-dev, libpoppler-glib-dev
+Homepage: http://www.deepin.org
+Priority: extra
+Section: devel
+Filename: pool/main/d/dde-api/dde-api-dev_5.0.0-1_all.deb
+Size: 70676
+SHA256: 4d2ec5e6cf858601df857e7ba728dd6206120420c60291f9914507a78d0ad98b
+SHA1: 6e9c5e77f45400eb7e5193f7f151f016aadf94a3
+MD5sum: 2af439e7682a961bb9d9abf0a67ff0f7
+Description: Go-lang bingdings for dde-daemon
+ Go-lang bindings for dde-daemon -- dev file
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: dde-control-center
+Version: 5.0.0-3
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 13942
+Depends: libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libdde-network-utils, libdframeworkdbus2 (>= 5.0.1), libdtkcore2 (>= 2.1.1), libdtkwidget2 (>= 2.0.11), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.6.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libxext6, dde-account-faces, dde-daemon, dde-api (>= 2.92.1), xkb-data, passwd
+Recommends: netselect
+Suggests: redshift
+Conflicts: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Replaces: dde-control-center-plugin-notify, dde-control-center-plugin-weather
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Priority: optional
+Section: admin
+Filename: pool/main/d/dde-control-center/dde-control-center_5.0.0-3_arm64.deb
+Size: 4148672
+SHA256: cf904643e6277c608f1b2e93b868864754f35532640fae7c67eee67e0b205614
+SHA1: eda37fd43bf7dc04a5764f7e803703cf2ad908ba
+MD5sum: 131d970beac9c777cea6a7a93c6a4f99
+Description: New control center for Deepin Desktop Environment
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+Original-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+
+Package: dde-daemon
+Version: 5.0.0-5
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 80501
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libfontconfig1 (>= 2.12.6), libgdk-pixbuf2.0-0 (>= 2.25.2), libglib2.0-0 (>= 2.61.2), libgtk-3-0 (>= 3.0.0), libgudev-1.0-0 (>= 212), libinput10 (>= 0.21.0), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libpam0g (>= 0.99.7.1), libpulse0 (>= 0.99.1), librsvg2-2 (>= 2.14.4), libudev1 (>= 183), libx11-6 (>= 2:1.2.99.901), libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), upower, network-manager, iso-codes, gvfs-bin, gnome-keyring, deepin-desktop-base, deepin-sound-theme, user-setup, deepin-wm | deepin-metacity, deepin-desktop-schemas (>> 3.13.7+), mobile-broadband-provider-info, bamfdaemon, dde-polkit-agent, xdotool, libfprint-2-2, dnsmasq-base, cgroup-tools, imwheel, procps, dde-api (>> 3.17.1+), libpam-runtime (>= 1.1.3-2~), hwinfo
+Recommends: proxychains4, flatpak, laptop-mode-tools, iio-sensor-proxy
+Suggests: bluez (>= 5.4), network-manager-pptp, network-manager-l2tp, network-manager-openconnect, network-manager-openvpn, network-manager-vpnc, network-manager-sstp, xserver-xorg-input-wacom, xserver-xorg-input-synaptics, miraclecast
+Conflicts: dde-workspace, lastore-daemon-migration
+Breaks: dde-daemon (<< 2.92.2), dde-workspace, lastore-daemon (<< 0.9.64)
+Replaces: lastore-daemon (<< 0.9.64)
+Provides: lastore-daemon-migration
+Homepage: http://www.deepin.org
+Priority: extra
+Section: devel
+Filename: pool/main/d/dde-daemon/dde-daemon_5.0.0-5_arm64.deb
+Size: 14178316
+SHA256: 57eb22e1cff12819a98fceb03e963b07870c5806c6c4a52bc3279d707a6c7858
+SHA1: bea82ae4175c2cce31994b03e3426660b135fe94
+MD5sum: e8f1044a4026ec59fdb6063d42d692df
+Description: daemon handling the DDE session settings
+ This package contains the daemon which is responsible for setting the
+ various parameters of a DDE session and the applications that run
+ under it.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: dde-desktop
+Source: dde-file-manager
+Version: 5.0.0-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 4986
+Depends: libc6 (>= 2.17), libdde-file-manager (= 5.0.0-2), libdframeworkdbus2 (>= 5.0.1), libdtkcore2 (>= 2.1.1), libdtkwidget2 (>= 2.0.11), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libxcb-ewmh2 (>= 0.4.1), libxcb-shape0, qtbase-abi-5-12-8
+Recommends: qt5dxcb-plugin, deepin-screensaver
+Conflicts: dde-workspace (<< 2.90.5)
+Homepage: http://www.deepin.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/dde-file-manager/dde-desktop_5.0.0-2_arm64.deb
+Size: 1900236
+SHA256: 6bbdd0bb0703bf9ab33e303b881ee5f5c6081a875b6eee424b56d9efe08e5f19
+SHA1: 51b2100c27e73e7be4f776d0563151a62a2e4c3f
+MD5sum: 7f6d2d990982c7b012c5d99662800357
+Description: deepin desktop-environment - desktop module
+ Deepin Desktop Environment (DDE) - desktop module.
+Original-Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+
+Package: dde-disk-mount-plugin
+Source: dde-file-manager
+Version: 5.0.0-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 441
+Depends: libc6 (>= 2.17), libdtkcore2 (>= 2.1.1), libdtkwidget2 (>= 2.0.11), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.33.14), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 4.1.1), libudisks2-qt5, libdde-file-manager (= 5.0.0-2)
+Homepage: http://www.deepin.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/dde-file-manager/dde-disk-mount-plugin_5.0.0-2_arm64.deb
+Size: 108932
+SHA256: b9bb7d48ce888d4b63b1108bc1da8466beea31ff2385494f69e23029ab991406
+SHA1: 0eeeba26ccd5a13a780affdf483829af9e42fe7c
+MD5sum: a505ac9677735f038344afa7ef046de8
+Description: plugin of dde-dock
+ Disk mount plugin of dde-dock which is created by libdde-file-manager
+Original-Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+
+Package: dde-dock
+Version: 5.0.0-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 3224
+Depends: libc6 (>= 2.17), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdde-network-utils, libdframeworkdbus2 (>= 5.0.1), libdtkcore2 (>= 2.1.1), libdtkwidget2 (>= 2.0.11), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxtst6, deepin-menu
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
+Replaces: dde-dock-applets, dde-trash-plugin
+Homepage: http://www.deepin.org/
+Priority: optional
+Section: x11
+Filename: pool/main/d/dde-dock/dde-dock_5.0.0-2_arm64.deb
+Size: 591728
+SHA256: 45631471408ef7f225792d202da2158eb2b47516adfc110c075f6c6691410b0d
+SHA1: 10a511b9acbfa1e5e77f3dab82befac7aaf34d94
+MD5sum: 0d13b9509af36f16df986989e476fbbb
+Description: deepin desktop-environment - dock module
+ Deepin desktop environment - dock module.
+Original-Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+
+Package: dde-dock-dev
+Source: dde-dock
+Version: 5.0.0-2
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 31
+Homepage: http://www.deepin.org/
+Priority: optional
+Section: x11
+Filename: pool/main/d/dde-dock/dde-dock-dev_5.0.0-2_all.deb
+Size: 5700
+SHA256: eed5e0c1490807c0ab6525863c145e1ca8d4eee093774e7bec5b478376bc4318
+SHA1: 3547ebeb41f28c6ac848bfe679052ba0fe314527
+MD5sum: 8714baf21a1b0304058c4cf13bbab7d4
+Description: deepin desktop-environment - dock module development files
+ Deepin desktop environment - dock module development files.
+Original-Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+
+Package: dde-dock-onboard-plugin
+Source: dde-dock
+Version: 5.0.0-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 87
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
+Homepage: http://www.deepin.org/
+Priority: optional
+Section: x11
+Filename: pool/main/d/dde-dock/dde-dock-onboard-plugin_5.0.0-2_arm64.deb
+Size: 21276
+SHA256: d3ed4faa310914a621cbe77ab81100bb78ea3e89e75aa08861b030dd07642f9e
+SHA1: 5f701b64613c819fd4a95cc48f9b11d30db19597
+MD5sum: 808f2f72e5c8d48948e987f2b06fb221
+Description: deepin desktop-environment - dock plugin
+ Deepin desktop environment - dock plugin for onboard
+Original-Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+
+Package: dde-file-manager
+Version: 5.0.0-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 974
+Depends: libc6 (>= 2.24), libdde-file-manager (= 5.0.0-2), libdtkcore2 (>= 2.1.1), libdtkwidget2 (>= 2.0.11), libgcc-s1 (>= 3.0), libjemalloc2 (>= 5.0.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, socat
+Recommends: dde-qt5integration, avfs, samba
+Homepage: http://www.deepin.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/dde-file-manager/dde-file-manager_5.0.0-2_arm64.deb
+Size: 233924
+SHA256: d3bfc49fbacf55e6e53fbbf7a431c72a1861a3a79a108bc598f5503c5e9b3986
+SHA1: 93bd3b432c22e909c356ad97b200b3c23f96bfe7
+MD5sum: 606460a3d5d38aaa4fe17d89a87e61c5
+Description: File manager front end
+ File manager front-end of Deepin OS
+Original-Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+
+Package: dde-kwin
+Version: 0.1.0-3
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 769
+Depends: libc6 (>= 2.29), libdtkcore2 (>= 2.1.1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkdecorations2-5v5 (>= 4:5.3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.99.0), libkf5globalaccel5 (>= 5.10.0), libkf5windowsystem5 (>= 4.100.0), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.9.0~beta) | libqt5gui5-gles (>= 5.9.0~beta), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), qtbase-abi-5-12-8, kwin-x11, plasma-framework, libkf5globalaccel-bin, qml-module-qtquick-controls2, qml-module-qtquick-templates2
+Homepage: https://github.com/linuxdeepin/dde-kwin
+Priority: optional
+Section: devel
+Filename: pool/main/d/dde-kwin/dde-kwin_0.1.0-3_arm64.deb
+Size: 143384
+SHA256: d38003a48c1f1cf6f0a259e16e64ca15babba2c1490d7dd2e7d303b3b79e343b
+SHA1: 233ee0cf210e4ee529653d145ade30bdb6807746
+MD5sum: f638226849dbbecea73f4f3cc7050cee
+Description: KWin configures/plugins on the DDE
+ Let kwin work well in the Deepin Desktop Environment.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: dde-kwin-dev
+Source: dde-kwin
+Version: 0.1.0-3
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 29
+Homepage: https://github.com/linuxdeepin/dde-kwin
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/dde-kwin/dde-kwin-dev_0.1.0-3_arm64.deb
+Size: 5096
+SHA256: 4f70bbd0329fd0bc0494c7c1648ee7c1ae9e51fe5ab826e98a1787384bdd04e7
+SHA1: 7fc34290949f5e565e42cae8e9feb076cb550f37
+MD5sum: d3412cbfcc66df939809a8aa3793bb11
+Description: Developer package of dde-kwin
+ Provide dde-kwin plugin implementation basis files.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: dde-launcher
+Version: 5.0.0-1
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 1648
+Depends: libc6 (>= 2.17), libdframeworkdbus2 (>= 5.0.1), libdtkcore2 (>= 2.1.1), libdtkwidget2 (>= 2.0.11), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libxcb-ewmh2 (>= 0.4.1), libxcb1, qtbase-abi-5-12-8, deepin-desktop-schemas (>= 3.1.11)
+Conflicts: dde-workspace (<< 2.90.5)
+Homepage: http://www.deepin.org/
+Priority: optional
+Section: x11
+Filename: pool/main/d/dde-launcher/dde-launcher_5.0.0-1_arm64.deb
+Size: 323432
+SHA256: f1a734325e1e32478d3fa529e3254a7fdbf15ec813016993660d39e2ee589c00
+SHA1: 9f463799d3a8e41b0611d9107c765274f5b52a36
+MD5sum: 68f76918a07ccf5ff2689bef1b0a4dda
+Description: deepin desktop-environment - launcher module
+ Deepin desktop environment 2015 - launcher module.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: dde-polkit-agent
+Version: 5.0.0
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 264
+Depends: libc6 (>= 2.17), libdframeworkdbus2 (>= 5.0.1), libdtkcore2 (>= 2.1.1), libdtkwidget2 (>= 2.0.11), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2), dpa-ext-gnomekeyring
+Homepage: http://www.deepin.org/
+Priority: optional
+Section: devel
+Filename: pool/main/d/dde-polkit-agent/dde-polkit-agent_5.0.0_arm64.deb
+Size: 56488
+SHA256: 3b8ad4254cf0e4e2d572221f042862f288ac859dc6735d6eff301e08241466d5
+SHA1: 744c715058a1eaade4dd3bf05439b2d68436c1d5
+MD5sum: 965462e1d95a6c94d66967135c5f9a34
+Description: PolicyKit agent for DDE.
+ PolicyKit agent is usually a dialog used to provide a way to let users
+ grant permission to specific actions, this package serves the role in
+ Deepin Desktop Environment.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: dde-polkit-agent-dev
+Source: dde-polkit-agent
+Version: 5.0.0
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 13
+Homepage: http://www.deepin.org/
+Priority: optional
+Section: devel
+Filename: pool/main/d/dde-polkit-agent/dde-polkit-agent-dev_5.0.0_arm64.deb
+Size: 2708
+SHA256: 5dcd50564a18b91e6ec9c4af321d420126a1cea3d98edea41145d13f5e895320
+SHA1: 3ee4489eaf6dffaa7ef91f7f78e5086cb8ceafbc
+MD5sum: a52a0ed8d04f8eedeab0ceb9de282d73
+Description: developement files of dde-polkit-agent extensions.
+ Development files of dde-polkit-agent extensions.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: dde-session-ui
+Version: 5.0.0-5
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 10243
+Depends: libc6 (>= 2.17), libdframeworkdbus2 (>= 5.0.1), libdtkcore2 (>= 2.1.1), libdtkwidget2 (>= 2.0.11), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.30.0), libgsettings-qt1 (>= 0.1+14.04.20140408), liblightdm-qt5-3-0 (>= 1.21.3), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0, libx11-6 (>= 2:1.2.99.901), libxcb-ewmh2 (>= 0.4.1), libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxtst6, deepin-desktop-schemas (>= 2.91.2), dde-daemon, x11-xserver-utils, dbus-x11
+Recommends: onboard
+Conflicts: dde-workspace, deepin-notifications, startdde (<< 2.91.1)
+Breaks: dde-workspace, startdde (<< 2.91.1)
+Replaces: deepin-notifications
+Provides: lightdm-greeter
+Homepage: http://www.deepin.org/
+Priority: optional
+Section: devel
+Filename: pool/main/d/dde-session-ui/dde-session-ui_5.0.0-5_arm64.deb
+Size: 1998288
+SHA256: db1953584ce826659871a1e06bb7cf4de1a674f97c80caf79a880b6defdbb1d9
+SHA1: 7f9b4704e37a93053657c049ef61985e03269aef
+MD5sum: fd55adfad6cf575d51b3debcb18f428e
+Description: deepin desktop-environment - dde-session-ui module
+ Deepin desktop environment 2015 - dde-session-ui module.
+Original-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+
+Package: deepin-anything-dev
+Source: deepin-anything
+Version: 5.0.1-4
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 67
+Depends: libc6 (>= 2.17), deepin-anything-libs (= 5.0.1-4)
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Priority: optional
+Section: admin
+Filename: pool/main/d/deepin-anything/deepin-anything-dev_5.0.1-4_arm64.deb
+Size: 18476
+SHA256: 4cd80a289465345b654b472629f5f398f3253dc6d4d982279dd7a15e70fdcfc5
+SHA1: 8f1f3bfbde8055bc0bce638de2471fe0e2094008
+MD5sum: 423efec91962a304bcf4b0c4c92a2cee
+Description: anything user interface library
+ anything library developer package.
+Original-Maintainer: Deepin Package Builder <packages@deepin.com>
+
+Package: deepin-anything-dkms
+Source: deepin-anything
+Version: 5.0.1-4
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 58
+Depends: dkms (>= 2.1.0.0)
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Priority: optional
+Section: admin
+Filename: pool/main/d/deepin-anything/deepin-anything-dkms_5.0.1-4_all.deb
+Size: 11660
+SHA256: e8bfbfc3f650952a20b79b89835fcb9d6ee326f2bf155f4c547e99c8a45660d9
+SHA1: d0511f20a8558178260d06198ed55d05cf7158d7
+MD5sum: c5ba7ac2213abb833bff91aad6ab74a4
+Description: anything module
+ anything kernel module package
+Original-Maintainer: Deepin Package Builder <packages@deepin.com>
+
+Package: deepin-anything-libs
+Source: deepin-anything
+Version: 5.0.1-4
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 120
+Depends: libc6 (>= 2.17)
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Priority: optional
+Section: admin
+Filename: pool/main/d/deepin-anything/deepin-anything-libs_5.0.1-4_arm64.deb
+Size: 15644
+SHA256: d46ba739c56bfffb3796971ae19d83f485a43b85648afa28a8933fbf6ed2336e
+SHA1: e48445cf77b464b2e7d48173a48807d576b6f14b
+MD5sum: 2dab5c059d58cf48a59c73d1d2f8f181
+Description: anything library
+ anything library package
+Original-Maintainer: Deepin Package Builder <packages@deepin.com>
+
+Package: deepin-anything-server
+Source: deepin-anything
+Version: 5.0.1-4
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 426
+Depends: deepin-anything-libs, libc6 (>= 2.17), libdtkcore2 (>= 2.1.1), libgcc-s1 (>= 3.0), libmount1 (>= 2.24.2), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5), libudisks2-qt5, deepin-anything-dkms
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Priority: optional
+Section: admin
+Filename: pool/main/d/deepin-anything/deepin-anything-server_5.0.1-4_arm64.deb
+Size: 100672
+SHA256: 7ecef887829d121ccef439236ccdba5aa4ad12249ef17f8a3cbeff64b8d9c1ff
+SHA1: b90cd7533889f68a71bccd048779ee2507b02f8a
+MD5sum: 507851f3757472fec4dd006b3ce28c1a
+Description: anything server application and lib
+ anything server package
+Original-Maintainer: Deepin Package Builder <packages@deepin.com>
+
+Package: deepin-anything-server-dev
+Source: deepin-anything
+Version: 5.0.1-4
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 26
+Depends: deepin-anything-server (= 5.0.1-4)
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Priority: optional
+Section: admin
+Filename: pool/main/d/deepin-anything/deepin-anything-server-dev_5.0.1-4_arm64.deb
+Size: 3824
+SHA256: 9878ef1f0997518a95653ca1673e4a7ab5f12aeec745c711a89b3fe8a52a65b3
+SHA1: 9697761ac2f5dc7a5f4fada529405c1b122c583b
+MD5sum: 476154f468d87471f589a73e4d10b0d7
+Description: anything server user interface library
+ anything server library developer package.
+Original-Maintainer: Deepin Package Builder <packages@deepin.com>
+
+Package: deepin-desktop-base
+Version: 2020.06.10-1
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 66
+Depends: distro-info-data, eject, deepin-wallpapers, fonts-noto, fonts-symbola
+Provides: deepin-appstore-config
+Priority: optional
+Section: misc
+Filename: pool/main/d/deepin-desktop-base/deepin-desktop-base_2020.06.10-1_arm64.deb
+Size: 8020
+SHA256: 3859df1d38f15413775857a97e0c00f06bf2b1d13d15fa136ce80b400d21712c
+SHA1: 82584fb85ff838e039431d9869bf66dad0ea6f42
+MD5sum: b96c07d81076e4411b3ecb53f0499c22
+Description: Base files for Deepin Desktop
+Original-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+
+Package: deepin-desktop-schemas
+Version: 3.13.9-6
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 296
+Depends: dconf-gsettings-backend | gsettings-backend
+Conflicts: deepin-default-gsettings
+Breaks: dde-daemon (<< 2.92.2), deepin-default-gsettings, deepin-wm (<< 0.2.1), startdde (<< 2.91.0)
+Replaces: deepin-default-gsettings
+Homepage: http://www.deepin.org/
+Priority: optional
+Section: misc
+Filename: pool/main/d/deepin-desktop-schemas/deepin-desktop-schemas_3.13.9-6_arm64.deb
+Size: 38256
+SHA256: 9b99cd33ba801a4ae9ec47b18ada604e507a30d887615bf97fdd11b9f1c7dc52
+SHA1: 0194cd0835d20a47408a946c26c30f031fe5add9
+MD5sum: 8bbf8ce1c7930a7ff4d2d1aabafac747
+Description: GSettings deepin desktop-wide schemas
+ deepin-desktop-schemas contains a collection of GSettings schemas for
+ settings shared by various components of a desktop.
+Original-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+
+Package: deepin-gtk-theme
+Version: 17.10.11
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 4434
+Breaks: libgtk-3-0 (<= 3.5.0)
+Priority: optional
+Section: gnome
+Filename: pool/main/d/deepin-gtk-theme/deepin-gtk-theme_17.10.11_all.deb
+Size: 263036
+SHA256: 673c623482b4557829b7a7815db8d34d2e03c30990804555c384de2cc167b9d6
+SHA1: 74ab4c6c1a9ae22987218ab524ea5ab88da1e2c6
+MD5sum: 9e6c5aabaf263cfacad607786acc7b57
+Description: Deepin Gtk Themes
+ This package contains GTK+ themes for Deepin Desktop Environment.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: deepin-icon-theme
+Version: 15.12.71-4
+Architecture: all
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 52463
+Depends: papirus-icon-theme
+Provides: sea-icon-theme
+Homepage: https://github.com/linuxdeepin/deepin-icon-theme
+Priority: optional
+Section: x11
+Filename: pool/main/d/deepin-icon-theme/deepin-icon-theme_15.12.71-4_all.deb
+Size: 9224460
+SHA256: b5fa99897f7b0e3ec545962830c25ea9c465e0ba149d5106d1a26d82a155eeb0
+SHA1: 598701a390e5bf78242f7bd97c8788dc9596328b
+MD5sum: 34a36d61b9e5212ee3cd859df1e833e0
+Description: Icon Theme for Deepin software and Deepin Desktop Environment
+ Deepin Icon Theme is the default icon theme for DDE, based on Papirus icon
+ theme. This package contains:
+  * Deepin Icon Theme
+  * Sea Icon Theme
+  * Deepin Cursor Theme
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+
+Package: deepin-metacity
+Version: 3.22.24
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 131
+Depends: deepin-menu, deepin-metacity-common (= 3.22.24), zenity, libc6 (>= 2.17), libcairo2 (>= 1.2.4), libdeepin-metacity-private3, libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.36.0), libgtk-3-0 (>= 3.15.2), libpango-1.0-0 (>= 1.14.0), libx11-6
+Suggests: xdg-user-dirs
+Provides: x-window-manager
+Homepage: https://git.gnome.org/browse/metacity
+Priority: optional
+Section: x11
+Filename: pool/main/d/deepin-metacity/deepin-metacity_3.22.24_arm64.deb
+Size: 25748
+SHA256: 42c0e545aac201efe79538f3120a3213b378695a25d216e26ec56054594afaaa
+SHA1: 5aa6dd037c0a27eba16d1e7448d9e1bc855c53fa
+MD5sum: 219bd7989bfb93e3fbad1b17ec58dcaa
+Description: lightweight GTK+ window manager
+ Metacity is a small window manager, using GTK+ to do everything.
+ .
+ As the author says, metacity is a "Boring window manager for the adult in
+ you. Many window managers are like Marshmallow Froot Loops; Metacity is
+ like Cheerios."
+ .
+ This package contains the core binaries.
+Original-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+
+Package: deepin-metacity-common
+Source: deepin-metacity
+Version: 3.22.24
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 5676
+Depends: dconf-gsettings-backend | gsettings-backend, sgml-base (>= 1.28)
+Homepage: https://git.gnome.org/browse/metacity
+Priority: optional
+Section: misc
+Filename: pool/main/d/deepin-metacity/deepin-metacity-common_3.22.24_all.deb
+Size: 660448
+SHA256: fcd69d1a0904414cc12059c9c6704ef95c75922f383f5a3bb472db116fd47449
+SHA1: 8275f95d8c97c660d84808a4b187b84cf38ae91f
+MD5sum: 5e0d5eba2f79351952e6b74e2bea02a0
+Description: shared files for the Metacity window manager
+ Metacity is a small window manager, using GTK+ to do everything.
+ .
+ As the author says, metacity is a "Boring window manager for the adult in
+ you. Many window managers are like Marshmallow Froot Loops; Metacity is
+ like Cheerios."
+ .
+ This package contains the shared files.
+Original-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+
+Package: deepin-mutter
+Version: 3.20.38-1
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 79
+Depends: libc6 (>= 2.17), libclutter-1.0-0 (>= 1.23.4), libdeepin-mutter0g, libglib2.0-0 (>= 2.35.1), libx11-6, libxcomposite1 (>= 1:0.4.5), deepin-mutter-common (= 3.20.38-1), deepin-desktop-schemas, zenity
+Recommends: startdde | x-session-manager
+Suggests: gnome-control-center (>= 1:3.4.0), xdg-user-dirs
+Provides: x-window-manager
+Priority: optional
+Section: x11
+Filename: pool/main/d/deepin-mutter/deepin-mutter_3.20.38-1_arm64.deb
+Size: 28024
+SHA256: 6688806e3dc041f3c485d17e4dfed5e651abe38a755eb273309d9a870345f92a
+SHA1: f22576ed552ed706d620d33fbe8f7d53b47b9b91
+MD5sum: 927a76303dd79536da95a49031a0be9b
+Description: lightweight GTK+ window manager for Deepin
+ Mutter is a small window manager, using GTK+ and Clutter to do
+ everything.
+ .
+ Mutter is the clutter-based evolution of Metacity, which, as the
+ author says, is a "Boring window manager for the adult in you. Many
+ window managers are like Marshmallow Froot Loops; Metacity is like
+ Cheerios."
+ .
+ This package contains the core binaries.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: deepin-mutter-common
+Source: deepin-mutter
+Version: 3.20.38-1
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 3714
+Depends: dconf-gsettings-backend | gsettings-backend
+Priority: optional
+Section: misc
+Filename: pool/main/d/deepin-mutter/deepin-mutter-common_3.20.38-1_all.deb
+Size: 435632
+SHA256: c2ff81ba4e37635469e7aa6a4a9ebd42813e15736fe32b8bd25b828e926779fd
+SHA1: b3baa3f2afaff8c51410821f3e452db9087f2386
+MD5sum: e2442de36f7e5dfcdffddbda6ea6186d
+Description: shared files for the Mutter window manager
+ Mutter is a small window manager, using GTK+ and Clutter to do
+ everything.
+ .
+ Mutter is the clutter-based evolution of Metacity, which, as the
+ author says, is a "Boring window manager for the adult in you. Many
+ window managers are like Marshmallow Froot Loops; Metacity is like
+ Cheerios."
+ .
+ This package contains the shared files.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: deepin-screensaver
+Version: 5.0.0
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 130
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libx11-6, libxss1, deepin-screensaver-xscreensaver-data
+Priority: optional
+Section: devel
+Filename: pool/main/d/deepin-screensaver/deepin-screensaver_5.0.0_arm64.deb
+Size: 33156
+SHA256: 65066bc4deda0a1037d15817c6dc4158248c939cc2680b6767f72c58fc9754b5
+SHA1: 5cbf1dc69a1adaa9cfd4bec2e46b6a8e7a1d0bec
+MD5sum: 63424b20fa616ff0ff66e638aa6846a7
+Description: Screensaver Tool
+ Deepin screensaver viewer and tools.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: deepin-screensaver-xscreensaver-data
+Source: deepin-screensaver
+Version: 5.0.0
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 896
+Depends: deepin-screensaver, xscreensaver-data-extra, xscreensaver-gl-extra
+Priority: optional
+Section: devel
+Filename: pool/main/d/deepin-screensaver/deepin-screensaver-xscreensaver-data_5.0.0_arm64.deb
+Size: 654348
+SHA256: f9003a036ff3b6b528252b23a5f2c9dd9d1c464424613a55c966e4a092de61e0
+SHA1: 7975ac9157b67691c94cd7fb13eb3efc69e7adb1
+MD5sum: 37c76798e9053666bb4d17223767942f
+Description: Screensaver data
+ xscreensaver extra with the Deepin Screensaver.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: deepin-sound-theme
+Version: 15.10.3
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 4923
+Homepage: http://www.deepin.org/
+Priority: optional
+Section: x11
+Filename: pool/main/d/deepin-sound-theme/deepin-sound-theme_15.10.3_all.deb
+Size: 3740308
+SHA256: ab426d4ac6cf6f96f40f2eafae869ec089022651d75e4bfdcc520c5f1bd64d30
+SHA1: 08f2056713c981521cc2ee5d51d328190e008941
+MD5sum: c47be2e0785127c9539cd1b8a613cf29
+Description: Deepin sound
+ This package contains the deepin sound theme.
+Original-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+
+Package: deepin-system-monitor
+Version: 5.0.0
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 1318
+Depends: libc6 (>= 2.29), libdtkcore2 (>= 2.1.1), libdtkwidget2 (>= 2.0.11), libdtkwm2 (>= 2.0.5), libgcc-s1 (>= 4.2), libpcap0.8 (>= 0.9.8), libprocps8 (>= 2:3.3.16-1), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libxcb1, libxext6, libcap2-bin
+Homepage: https://github.com/manateelazycat/deepin-system-monitor
+Priority: optional
+Section: utils
+Filename: pool/main/d/deepin-system-monitor/deepin-system-monitor_5.0.0_arm64.deb
+Size: 295928
+SHA256: d288c4491f9e187996a754ab555bdbe1c85459348656b1ea449a8651e5d14fc1
+SHA1: 3dbfb0530ebdb2a68720abda1f80ca8526247d16
+MD5sum: d0d6fc4ddfb7ac0e59cb558598846cf1
+Description: Deepin system monitor: a more user-friendly system monitor.
+ A system monitor tool for Deepin.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: deepin-topbar
+Version: 0.6.6-1
+Architecture: arm64
+Maintainer: kirigaya <kirigaya@mkacg.com>
+Installed-Size: 1731
+Depends: libc6 (>= 2.17), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdde-network-utils, libdframeworkdbus2 (>= 5.0.1), libdtkcore2 (>= 2.1.1), libdtkwidget2 (>= 2.0.11), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libprocps8 (>= 2:3.3.16-1), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxext6, libxtst6
+Conflicts: dde-topbar
+Replaces: dde-topbar
+Homepage: https://github.com/haruyukilxz/deepin-topbar
+Priority: optional
+Section: base
+Filename: pool/main/d/deepin-topbar/deepin-topbar_0.6.6-1_arm64.deb
+Size: 354268
+SHA256: 42f445d6679f0a21c854bdf921d7681ba6f7cd7bdf205657992ca38cf0caf5aa
+SHA1: 0a44806589300f1ebaba83f05c8537336715f897
+MD5sum: 4cfc5b4713cbd88afe942b927d27d743
+Description: topbar for deepin.
+
+Package: deepin-turbo
+Version: 0.0.3
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 137
+Depends: libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libsystemd0
+Multi-Arch: same
+Priority: extra
+Section: libs
+Filename: pool/main/d/deepin-turbo/deepin-turbo_0.0.3_arm64.deb
+Size: 40832
+SHA256: 9cb1e7072251b85ebb3b2d1e87d6222fd32c4240d3372016ee661bf7180699e4
+SHA1: f4b641176543c5049bc75c84694b091519280916
+MD5sum: 3cc96d0a09937e542b0fde7abe91b570
+Description: Application launcher for fast startup
+ Application invoker and launcher daemon that speed up
+ application startup time and share memory. Provides also
+ functionality to launch applications as single instances.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: deepin-turbo-booster
+Source: deepin-turbo
+Version: 0.0.3
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 28
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), deepin-turbo
+Multi-Arch: same
+Priority: extra
+Section: devel
+Filename: pool/main/d/deepin-turbo/deepin-turbo-booster_0.0.3_arm64.deb
+Size: 6020
+SHA256: 90d6554fa9834857e35a5c31278df5a0a8666cd0adf1cfb62e97b724ba7454db
+SHA1: 8b92e76e5b16c3dcd3daa3c2aee6883e6648acf5
+MD5sum: 9d21a3e306a2ca5378fce9499c6e8610
+Description: DTK application booster binary for deepin-turbo
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: deepin-turbo-dev
+Source: deepin-turbo
+Version: 0.0.3
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 45
+Depends: deepin-turbo
+Multi-Arch: same
+Priority: extra
+Section: libdevel
+Filename: pool/main/d/deepin-turbo/deepin-turbo-dev_0.0.3_arm64.deb
+Size: 9004
+SHA256: a1e1de4b8392ed13bb6b9fa0fe9fb9e54a5432ac02eddd6f584b047bfdda6ce4
+SHA1: cbd8a451926325c3fd46190db721fee5bfd363eb
+MD5sum: beec4fec146b5394d5a4d282c1431efe
+Description: Development files for launchable applications
+  evelopment files for creating applications that can be launched
+  using deepin-turbo.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: deepin-wallpapers
+Version: 1.7.7-6
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 60066
+Breaks: deepin-desktop-base (<< 2017.11.2)
+Homepage: https://www.deepin.org/
+Priority: optional
+Section: utils
+Filename: pool/main/d/deepin-wallpapers/deepin-wallpapers_1.7.7-6_arm64.deb
+Size: 58072384
+SHA256: 76ddc4807264f82f04e288a781e77093c7097de01cf2fab2d5fbe6d9d982301a
+SHA1: 066e5e4f9a9d04d4a44a9365039c6dd122313439
+MD5sum: 531f25a8beb96ba22faea9f276d7c3fb
+Description: Default wallpapers for dde
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: deepin-wm
+Version: 1.9.38
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 1363
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.17), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libclutter-1.0-0 (>= 1.23.4), libclutter-gtk-1.0-0 (>= 0.91.8), libcogl-pango20 (>= 1.22.6), libcogl-path20 (>= 1.22.6), libcogl20 (>= 1.22.6), libdeepin-mutter0g, libdeepin-wm0 (= 1.9.38), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgnome-desktop-3-19 (>= 3.17.92), libgranite5 (>= 0.2.3), libgtk-3-0 (>= 3.9.10), libjson-glib-1.0-0 (>= 1.2.0), libpango-1.0-0 (>= 1.14.0), libxfixes3, deepin-desktop-schemas (>> 2.90.0), deepin-menu
+Provides: x-window-manager
+Homepage: https://github.com/linuxdeepin/deepin-wm
+Priority: optional
+Section: x11
+Filename: pool/main/d/deepin-wm/deepin-wm_1.9.38_arm64.deb
+Size: 312964
+SHA256: c29775cad776fb927c8397130342c1d99a39978ed63c36be826ca6f09efe6442
+SHA1: b46c886a8109012eb879f503d89023c95e2afcfb
+MD5sum: c4f6c1c67f9430bc02faf558e7ce6ac2
+Description: Deepin Window Manager
+ deepin-wm(fork of gala) is a window & compositing manager based on libmutter. It manages the
+ various windows a user has open.
+ It takes care of behaviors such as moving windows around, window switching,
+ window overview, animating windows, maximization, multiple workspaces,
+ providing accessibility features like zoom, and more.
+Original-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+
+Package: dpa-ext-gnomekeyring
+Version: 5.0.1
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 46
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libgnome-keyring0 (>= 2.20.3), libqt5core5a (>= 5.5.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Homepage: https://www.deepin.org
+Priority: optional
+Section: devel
+Filename: pool/main/d/dpa-ext-gnomekeyring/dpa-ext-gnomekeyring_5.0.1_arm64.deb
+Size: 11156
+SHA256: 256bcfb12bba31e37e53b96f1c48f3d1632688c14b9f4b59429b74648a928d88
+SHA1: c7802c6eebe2401971afad0dec72d9e15e945036
+MD5sum: 83bc82696fa764d4d42f7216b778b221
+Description: GNOME keyring extension for dde-polkit-agent.
+ DDE Polkit Agent extension to automatically do some thing with GNOME keyring.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: gir1.2-cogl-1.0
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 192
+Depends: gir1.2-freedesktop (>= 0.9.12), gir1.2-glib-2.0 (>= 0.9.12), libcogl20 (>= 1.22.6)
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Filename: pool/main/c/cogl/gir1.2-cogl-1.0_1.22.6-2_arm64.deb
+Size: 58896
+SHA256: 19dcf6bfbd6ac28502cf929832e64ad5e08b4350115cf8434c4714d6bf10b696
+SHA1: 8b51030e504dfa707b69418d3ce3a245d569201e
+MD5sum: 38a90289fc029b4912c6f882e9667ddf
+Description: GObject introspection data for the Cogl 1.0 library
+ This package contains introspection data for the Clutter scene
+ graph library.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings for libcogl.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gir1.2-coglgst-2.0
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 48
+Depends: gir1.2-cogl-1.0 (= 1.22.6-2), gir1.2-glib-2.0 (>= 0.9.12), gir1.2-gstreamer-1.0, libcogl-gst20
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Filename: pool/main/c/cogl/gir1.2-coglgst-2.0_1.22.6-2_arm64.deb
+Size: 30720
+SHA256: 10f4a0c482f5b343f67397ffec9d0c8f92e4d6398160f4bdc002141eeef12081
+SHA1: e84f3fabfcb2d5e0535bb52ba64c11c46618295a
+MD5sum: a6d5b9779a07508ee6d2497b126ea128
+Description: GObject introspection data for the CoglGst 2.0 library
+ This package contains introspection data for the Cogl GStreamer
+ library.
+ .
+ It can be used by packages using the GIRepository format to generate
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gir1.2-coglpango-1.0
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 51
+Depends: gir1.2-cogl-1.0 (= 1.22.6-2), gir1.2-pango-1.0 (>= 1.28.3-5), libcogl-pango20 (>= 1.22.6)
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Filename: pool/main/c/cogl/gir1.2-coglpango-1.0_1.22.6-2_arm64.deb
+Size: 30900
+SHA256: 50142f77635f2edf85d17bf4edb71b20b69a695cf0d50670f06e913d4e38d8b8
+SHA1: cdc0969dde951a2a045f3d6e5f39b29b16f6e02c
+MD5sum: ce32badebb426672ba158ec080addc92
+Description: GObject introspection data for the CoglPango 1.0 library
+ This package contains introspection data for the Clutter scene
+ graph library.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings for libcogl-pango.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gir1.2-deepin-mutter-3.0
+Source: deepin-mutter
+Version: 3.20.38-1
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 105
+Depends: libdeepin-mutter0g (= 3.20.38-1)
+Priority: optional
+Section: introspection
+Filename: pool/main/d/deepin-mutter/gir1.2-deepin-mutter-3.0_3.20.38-1_arm64.deb
+Size: 36716
+SHA256: b5684de68304669f237461183022db59111da9075a57dfe0ebed7335e8d541d8
+SHA1: 7e05458d82a942f42e3e98a26e395798f1b840f9
+MD5sum: 450fa5ed0ad71030e66423ecbc869e49
+Description: GObject introspection data for Mutter
+ Mutter is a small window manager, using GTK+ and Clutter to do
+ everything.
+ .
+ Mutter is the clutter-based evolution of Metacity, which, as the
+ author says, is a "Boring window manager for the adult in you. Many
+ window managers are like Marshmallow Froot Loops; Metacity is like
+ Cheerios."
+ .
+ This package contains the GObject introspection data which may be
+ used to generate dynamic bindings.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: gir1.2-gnomekeyring-1.0
+Source: libgnome-keyring
+Version: 3.12.0+13+g4f8ab73-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 34
+Depends: libgnome-keyring0 (= 3.12.0+13+g4f8ab73-2), gir1.2-glib-2.0 (>= 1.30)
+Homepage: https://wiki.gnome.org/GnomeKeyring
+Priority: optional
+Section: introspection
+Filename: pool/main/libg/libgnome-keyring/gir1.2-gnomekeyring-1.0_3.12.0+13+g4f8ab73-2_arm64.deb
+Size: 11304
+SHA256: 1ab5eb421d14ce03b2dcf2f7f90f45370c26b12ebb416d8fdcb6210c4ce06694
+SHA1: b86180d8c8e3fafd4837b2f2e4e890122b8d4f0d
+MD5sum: 81c798d58f8ad9466a4976272c9386af
+Description: GNOME keyring services library - introspection data
+ gnome-keyring is a daemon in the session, similar to ssh-agent,
+ and other applications can use it to store passwords and other
+ sensitive information.
+ .
+ The program can manage several keyrings, each with its own master
+ password, and there is also a session keyring which is never stored to
+ disk, but forgotten when the session ends.
+ .
+ This package provides introspection data for libgnome-keyring. It can
+ be used by packages using the GIRepository format to generate dynamic
+ bindings.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: golang-dlib-dev
+Source: go-dlib
+Version: 5.0.0-1
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 2303
+Depends: golang-github-linuxdeepin-go-x11-client-dev, golang-github-cryptix-wav-dev, golang-golang-x-image-dev, golang-gir-gobject-2.0-dev (>> 1.2.0+), golang-gir-gio-2.0-dev (>> 1.2.0+), golang-gir-glib-2.0-dev (>> 1.2.0+), libpulse-dev, libgtk-3-dev, libasound2-dev, libpam0g-dev, golang-golang-x-net-dev
+Provides: go-dlib
+Homepage: http://www.deepin.org
+Priority: extra
+Section: devel
+Filename: pool/main/g/go-dlib/golang-dlib-dev_5.0.0-1_all.deb
+Size: 401596
+SHA256: a68693549f468409260b36bfea19be34c07d47fd2ee7360642e993cfe15dcca5
+SHA1: 7bf187d16a7f445495e8bf43a5b7291ed3825768
+MD5sum: 719523da41f402ab9f7f9591debcce96
+Description: Go bindings for Deepin Desktop Environment development
+ DLib is a set of Go bindings/libraries for DDE development.
+ Containing dbus (forking from guelfey), glib, gdkpixbuf, pulse and more.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: golang-gir-generator
+Source: go-gir-generator
+Version: 2.0.2-1ubuntu1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2959
+Depends: libc6 (>= 2.17), libgirepository-1.0-1 (>= 1.30.0), libglib2.0-0 (>= 2.12.0)
+Homepage: http://www.deepin.org
+Priority: optional
+Section: devel
+Filename: pool/main/g/go-gir-generator/golang-gir-generator_2.0.2-1ubuntu1_arm64.deb
+Size: 817248
+SHA256: ff293170fa57570a3702abb2abb9108737bfea69a4a0099d61c209de48f4d03f
+SHA1: d1a0ba89f6c709d9b0283d523740efe3dcc95b46
+MD5sum: 46666547ebaefeb5dde90b23e7436323
+Description: generate library binding code which support gir for golang.
+ This tool can generate library binding code which support gir for golang.
+Original-Maintainer:  Deepin Packages Builder <packages@deepin.com>
+
+Package: golang-gir-gio-2.0-dev
+Source: go-gir-generator
+Version: 2.0.2-1ubuntu1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 613
+Depends: libglib2.0-dev
+Conflicts: golang-gir-gio-2.0
+Breaks: golang-gir-gio-2.0 (<< 0.9.3)
+Provides: golang-gir-gio-2.0
+Homepage: http://www.deepin.org
+Priority: optional
+Section: devel
+Filename: pool/main/g/go-gir-generator/golang-gir-gio-2.0-dev_2.0.2-1ubuntu1_arm64.deb
+Size: 56616
+SHA256: 3128b8d7716554513b9671aae341105de05f2cb4590d0dc3baa1db6713f78769
+SHA1: 0a1a7e91a0c97dfc0bb316d706385fbdd3966dfa
+MD5sum: ad1ed4690fae07854d374d698cb4e28c
+Description: Go bindings
+ Go bindings for Deepin Desktop Environment development.
+ .
+ gio-2.0 go bindings.
+Original-Maintainer:  Deepin Packages Builder <packages@deepin.com>
+
+Package: golang-gir-glib-2.0-dev
+Source: go-gir-generator
+Version: 2.0.2-1ubuntu1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 267
+Depends: libglib2.0-dev
+Conflicts: golang-gir-glib-2.0
+Breaks: golang-gir-glib-2.0 (<< 0.9.3)
+Provides: golang-gir-glib-2.0
+Homepage: http://www.deepin.org
+Priority: optional
+Section: devel
+Filename: pool/main/g/go-gir-generator/golang-gir-glib-2.0-dev_2.0.2-1ubuntu1_arm64.deb
+Size: 35908
+SHA256: 261a8fc9ef3fde8c76ee6e18c50c30fa720aa59655c77f0659f3b72b62dd7b27
+SHA1: b55d03fa8dc3601e21484c4b68564ea6ed0cfec0
+MD5sum: d1fe5d58e38bb90deeebf23dce25d07c
+Description: Go bindings
+ Go bindings for Deepin Desktop Environment development
+ .
+ glib-2.0 go bindings.
+Original-Maintainer:  Deepin Packages Builder <packages@deepin.com>
+
+Package: golang-gir-gobject-2.0-dev
+Source: go-gir-generator
+Version: 2.0.2-1ubuntu1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 174
+Depends: libglib2.0-dev
+Conflicts: golang-gir-gobject-2.0
+Breaks: golang-gir-gobject-2.0 (<< 0.9.3)
+Provides: golang-gir-gobject-2.0
+Homepage: http://www.deepin.org
+Priority: optional
+Section: devel
+Filename: pool/main/g/go-gir-generator/golang-gir-gobject-2.0-dev_2.0.2-1ubuntu1_arm64.deb
+Size: 22432
+SHA256: 258fb964467cfb62ebc67b23b1cc549339b74079eb57724e3362c5af3af58522
+SHA1: ea4ab801b33a3d62f27f579c961aa24a45f94a71
+MD5sum: 1c852f7aae5eee295175522ee010962f
+Description: Go bindings
+ Go bindings for Deepin Desktop Environment development.
+ .
+ gobject-2.0 go bindings.
+Original-Maintainer:  Deepin Packages Builder <packages@deepin.com>
+
+Package: golang-gir-gudev-1.0-dev
+Source: go-gir-generator
+Version: 2.0.2-1ubuntu1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 69
+Depends: libgudev-1.0-dev
+Homepage: http://www.deepin.org
+Priority: optional
+Section: devel
+Filename: pool/main/g/go-gir-generator/golang-gir-gudev-1.0-dev_2.0.2-1ubuntu1_arm64.deb
+Size: 8924
+SHA256: de67b3d8b6cd83f7af40458849cf8bdfd83f58ae6a65af8f772c064f4a4a6399
+SHA1: fe0a66ff2843a0da488ddd6e62d191479e72a37e
+MD5sum: 4897b8c10f09858fa0ced00c8bdebd10
+Description: Go bindings
+ Go bindings for Deepin Desktop Environment development
+ .
+ gudev-1.0  go bindings.
+Original-Maintainer:  Deepin Packages Builder <packages@deepin.com>
+
+Package: golang-github-axgle-mahonia-dev
+Source: golang-github-axgle-mahonia
+Version: 0.0~git20151019.c528b74-1
+Architecture: all
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1752
+Homepage: https://github.com/axgle/mahonia
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-axgle-mahonia/golang-github-axgle-mahonia-dev_0.0~git20151019.c528b74-1_all.deb
+Size: 179366
+SHA256: d051929ea358fd5f32b20cd77796d1640a195cf4b18e1d0410d71742d290646b
+SHA1: d3c2f8db77f991230c72e34971dc9685ecd17df8
+MD5sum: 027286407496e0d21e0b1a343d1060b9
+Description: character-set conversion library implemented in Go
+
+Package: golang-github-cryptix-wav-dev
+Source: golang-github-cryptix-wav
+Version: 0.0~git20171107.0.7b3d650-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 42
+Homepage: https://github.com/cryptix/wav
+Priority: extra
+Section: devel
+Filename: pool/main/g/golang-github-cryptix-wav/golang-github-cryptix-wav-dev_0.0~git20171107.0.7b3d650-2_all.deb
+Size: 7912
+SHA256: 92e2ac4abae5752cf02f707b35624a1d8ef83ab21c963fa1b69f4b2fd2bb3593
+SHA1: 01151b552461cf10cbd9e55ce9f94d0458193b55
+MD5sum: 2ac37fc698b8b0cfd64acd152e986dd3
+Description: golang .wav reader and writer
+ wav GoDoc (https://godoc.org/github.com/cryptix/wav) Build Status
+ (https://travis-ci.org/cryptix/wav)
+  wercker status
+  (https://app.wercker.com/project/bykey/d23488f1a04c695b0ad57fe5a647d0ec)
+ .
+ golang .wav reader and writer Todo• Use type WavFile for Reader•
+ Implement Stereo interleaving
+
+Package: golang-github-fogleman-gg-dev
+Source: golang-github-fogleman-gg
+Version: 1.1.0-1
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 56
+Depends: golang-go, golang-github-golang-freetype-dev, golang-golang-x-image-dev
+Homepage: https://github.com/fogleman/gg
+Priority: extra
+Section: devel
+Filename: pool/main/g/golang-github-fogleman-gg/golang-github-fogleman-gg-dev_1.1.0-1_all.deb
+Size: 12284
+SHA256: 241b316608be24f58dd0c09346467b54e0a6b19178a5b0509fc96dc7354a6349
+SHA1: 54f32374d3dc293408bec863dc961497a05c76de
+MD5sum: cabe9732211aacabbeb6bc164eb1e997
+Description: INI file parser library for Go
+ Go library to parse files in the INI format.
+Original-Maintainer: pkg-go <pkg-go-maintainers@lists.alioth.debian.org>
+
+Package: golang-github-gavv-monotime-dev
+Source: golang-github-gavv-monotime
+Version: 0.0~git20161010.0.47d58ef-1.1
+Architecture: all
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 18
+Homepage: https://github.com/gavv/monotime
+Priority: extra
+Section: devel
+Filename: pool/main/g/golang-github-gavv-monotime/golang-github-gavv-monotime-dev_0.0~git20161010.0.47d58ef-1.1_all.deb
+Size: 3640
+SHA256: df216d21c219775463630867c8dde86cf1d88239581f4327b8f0cbf3fb5642b8
+SHA1: 206c42eaa1c6e37effa4e4839a97477f1395f6f6
+MD5sum: c1e931022f2a57babc08628367843d94
+Description: Measuring time intervals correctly in Go (monotonic clock).
+ monotime GoDoc (https://godoc.org/github.com/gavv/monotime) Travis
+ (https://travis-ci.org/gavv/monotime) This tiny Go package is
+ a standalone and slightly enhanced version of goarista/monotime
+ (https://github.com/aristanetworks/goarista#monotime).
+ .
+ It provides monotime.Now() function, which returns current time
+ from monotonic clock source. It's implemented using unexported
+ runtime.nanotime() function from Go runtime. It works on all platforms.
+ Why?  time.Now() function from standard library returns real time
+ (CLOCK_REALTIME in POSIX) which can jump forwards and backwards as the
+ system time is changed.
+ .
+ For time measurements, monotonic time (CLOCK_MONOTONIC or
+ CLOCK_MONOTONIC_RAW on Linux) is often preferred, which is strictly
+ increasing, without (notable) jumps.  Documentation See GoDoc
+ (https://godoc.org/github.com/gavv/monotime).  Usage example ```go
+ package main
+ .
+ import (
+     "fmt" "time"
+ "github.com/gavv/monotime"
+ .
+ )
+ .
+ func main() {
+     var start, elapsed time.Duration
+ start = monotime.Now() time.Sleep(time.Millisecond) elapsed =
+ monotime.Since(start)
+ .
+ fmt.Println(elapsed) // Prints: 1.062759ms
+ .
+ } ``` Similar packages• aristanetworks/goarista/monotime
+ (https://github.com/aristanetworks/goarista#monotime)
+ (this package is based on it)• spacemonkeygo/monotime
+ (https://github.com/spacemonkeygo/monotime) (current
+ runtime.nanotime() is more complete)• davecheney/junk/clock
+ (https://github.com/davecheney/junk/tree/master/clock) (Linux-only)•
+ jaracil/clk (https://github.com/jaracil/clk) (Linux-only)License Apache
+ 2.0 (https://github.com/gavv/monotime/blob/master/LICENSE)
+
+Package: golang-github-golang-freetype-dev
+Source: golang-github-golang-freetype
+Version: 1.0
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 3078
+Depends: golang-golang-x-image-dev
+Homepage: https://github.com/golang/freetype
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-golang-freetype/golang-github-golang-freetype-dev_1.0_all.deb
+Size: 302708
+SHA256: e04c8f1407df00219e33cb653383cbe21bd26b8e2168c3144c8574873ec8eadd
+SHA1: c9f3a5d4104fe06409282bdf07837e7575b0210a
+MD5sum: c246af0316c2cdf8313f6205650c0194
+Description: The Freetype font rasterizer in the Go programming language.
+ See the reference (https://github.com/golang/freetype) for more info.
+Original-Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+
+Package: golang-github-linuxdeepin-go-dbus-factory-dev
+Source: golang-github-linuxdeepin-go-dbus-factory
+Version: 0.9.0-1
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 765
+Depends: golang-dlib-dev
+Homepage: https://github.com/linuxdeepin/go-dbus-factory
+Priority: extra
+Section: devel
+Filename: pool/main/g/golang-github-linuxdeepin-go-dbus-factory/golang-github-linuxdeepin-go-dbus-factory-dev_0.9.0-1_all.deb
+Size: 63192
+SHA256: 551c4b8420d2c2a9d96e77d2e48fb62e5b7f61b2b1a61e594a5bf138c0c17f85
+SHA1: fedc4ae8e5c4488fa1da6ea8f8981efc22b29a22
+MD5sum: 773134fe877510ff2bfc9645f01d705b
+Description: mirrored from https://cr.deepin.io/#/admin/projects/go-dbus-factory
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: golang-github-linuxdeepin-go-x11-client-dev
+Source: golang-github-linuxdeepin-go-x11-client
+Version: 0.4.1-1
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 1290
+Depends: golang-github-gavv-monotime-dev, golang-gopkg-check.v1-dev
+Homepage: https://github.com/linuxdeepin/go-x11-client
+Priority: extra
+Section: devel
+Filename: pool/main/g/golang-github-linuxdeepin-go-x11-client/golang-github-linuxdeepin-go-x11-client-dev_0.4.1-1_all.deb
+Size: 139196
+SHA256: d3f589b232ea4740bb76a3fcc32357ac9c28c1dc27c5a12cff3b46ee53deb7d1
+SHA1: 34bd184d1a13023f3e4470aaf272d92a496d9f5b
+MD5sum: 87fb4addac53a5ad6b7fdb314719ad3c
+Description: deepin go x11 client
+ mirrored from https://cr.deepin.io/#/admin/projects/go-x11-client
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: grub-themes-ubuntudde
+Version: 0.1.3
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 3319
+Depends: grub2-common
+Homepage: https://github.com/vinceliuice/grub2-themes
+Priority: extra
+Section: universe/misc
+Filename: pool/main/g/grub-themes-ubuntudde/grub-themes-ubuntudde_0.1.3_all.deb
+Size: 1137812
+SHA256: 603d9c041b5b845eebda8aa7624dbb0d67bfe7553dabc5ab5c2be0095f064558
+SHA1: 0f53bb780a7ae38210eefc32574900d2f5e6fd3f
+MD5sum: e829323be769ae2680599e8546f5b232
+Description: UbuntuDDE theme for grub2
+ Beautiful grub2 theme made by vinceliuice https://github.com/vinceliuice/grub2-themes .
+
+Package: kde-window-manager
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 25
+Depends: kwin-x11 (>= 4:5.3.2-4~)
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: oldlibs
+Filename: pool/main/u/ubuntudde-kwin/kde-window-manager_5.18.5-1ubuntu2_all.deb
+Size: 6120
+SHA256: ddfaef091f20499660982e31fcf72d89fb06f6b12ac5a05a6c755767ced4e2b7
+SHA1: 49c2715f5a73bda60f70ce6988a2e8d602fdf09f
+MD5sum: 23219ee271777fb1b81f10664def9320
+Description: transitional package for kwin-x11
+ This transitional package allows one to migrate to the packages providing
+ the X11 version of the KDE window manager.
+ .
+ It can be safely removed after the installation.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: kwin
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 25
+Depends: kwin-x11
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: oldlibs
+Filename: pool/main/u/ubuntudde-kwin/kwin_5.18.5-1ubuntu2_all.deb
+Size: 6044
+SHA256: edd7e0cf799a97083db2417027949a8c7280ba868b861dfc49f7ad010e396c9d
+SHA1: c18861356817f0fe1ab6b2200c1b731eb5447dba
+MD5sum: 7b0f7fe647237d07cd1de432d6905600
+Description: Transitional dummy for kwin-x11
+ This package is a transitional dummy to depend on the renamed kwin-x11 and
+ can be removed.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: kwin-common
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 9140
+Depends: kwin-data (= 4:5.18.5-1ubuntu2), libkf5globalaccel-bin, libkwineffects12 (= 4:5.18.5-1ubuntu2), qml-module-org-kde-kirigami2 (>= 5.54.0~), qml-module-org-kde-kquickcontrolsaddons, qml-module-qtmultimedia, kio, kpackagetool5, libc6 (>= 2.29), libepoxy0 (>= 1.0), libinput10 (>= 1.9.2), libkdecorations2-5v5 (>= 4:5.18.1), libkdecorations2private7 (>= 4:5.9.0), libkf5activities5 (>= 4.96.0), libkf5authcore5 (>= 5.56.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 5.66.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 5.65.0), libkf5coreaddons5 (>= 5.11.0), libkf5globalaccel5 (>= 5.10.0), libkf5globalaccelprivate5 (>= 5.11.0+git), libkf5i18n5 (>= 5.0.0), libkf5kcmutils5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5newstuff5 (>= 4.95.0), libkf5notifications5 (>= 4.96.0), libkf5package5 (>= 5.17.0), libkf5plasma5 (>= 5.0.0), libkf5quickaddons5 (>= 5.64.0), libkf5service-bin, libkf5service5 (>= 5.4.0+git20141113.1055+15.04), libkf5textwidgets5 (>= 5.0.0), libkf5waylandclient5 (>= 4:5.37.0), libkf5waylandserver5 (>= 4:5.64.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5windowsystem5 (>= 5.67.0), libkf5xmlgui-bin, libkf5xmlgui5 (>= 4.96.0), libkscreenlocker5 (>= 5.18.4.1), libkwin4-effect-builtins1, libkwinglutils12 (>= 4:5.17.80), libkwinxrenderutils12 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.12.2), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.10.0) | libqt5quick5-gles (>= 5.10.0), libqt5script5 (>= 5.9.0~), libqt5sensors5 (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libqt5x11extras5 (>= 5.9.0~), libstdc++6 (>= 5), libudev1 (>= 183), libwayland-cursor0 (>= 1.2), libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-glx0, libxcb-icccm4 (>= 0.4.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.6), libxkbcommon0 (>= 0.7.0), qtbase-abi-5-12-8
+Recommends: libqt5multimedia5-plugins, qtvirtualkeyboard-plugin
+Suggests: kwin-addons (>= 4:5.18.0)
+Breaks: kwin (<= 4:5.3.1-0ubuntu3)
+Replaces: kwin (<= 4:5.3.1-0ubuntu3)
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/u/ubuntudde-kwin/kwin-common_5.18.5-1ubuntu2_arm64.deb
+Size: 1673160
+SHA256: 415b626729338b621bd3cfc8594190e8c07210d6d78da391475fd1b791d2c65c
+SHA1: 91b80ab7b82c5ad4807a1e27e09a81f605c0709d
+MD5sum: 48020a7878395efade2e6542e4274e88
+Description: KDE window manager, common files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: kwin-data
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 12301
+Recommends: python3, plasma-framework, qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2
+Breaks: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
+Replaces: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/u/ubuntudde-kwin/kwin-data_5.18.5-1ubuntu2_all.deb
+Size: 3820784
+SHA256: a407e57fb0eae2bfa38dd9ee0f0a30fa63e7b9ee814ae22f4bebc9a88a24d930
+SHA1: 238536b1970ea1207109d1858059ca48c121506c
+MD5sum: e976a08c946b5207878fa5e77dbae3b8
+Description: KDE window manager data files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package contains the data files
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: kwin-dev
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 279
+Depends: kwin-common (= 4:5.18.5-1ubuntu2), libegl1-mesa-dev (>= 1.2~), libepoxy-dev (>= 1.2), libkf5config-dev (>= 5.66.0~), libkf5coreaddons-dev (>= 5.66.0~), libkf5windowsystem-dev (>= 5.66.0~), libqt5x11extras5-dev (>= 5.9.0~), libxcb-xfixes0-dev, qtbase5-dev (>= 5.9.0~)
+Breaks: kde-workspace-dev
+Replaces: kde-workspace-dev
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libdevel
+Filename: pool/main/u/ubuntudde-kwin/kwin-dev_5.18.5-1ubuntu2_arm64.deb
+Size: 53652
+SHA256: 25a2b03513e03651552179a03ac717e10e88ee7adaf87a2d9d9fa781d1daf678
+SHA1: 1657d526516f9ba544c8536a8245798b7e45c168
+MD5sum: 6501e3349a9700c881b04b4c05d77d74
+Description: KDE window manager - devel files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: kwin-wayland
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 744
+Depends: kwayland-integration (>= 5.18.0), kwin-common (= 4:5.18.5-1ubuntu2), kwin-wayland-backend-drm (= 4:5.18.5-1ubuntu2) | kwin-wayland-backend-fbdev (= 4:5.18.5-1ubuntu2) | kwin-wayland-backend-x11 (= 4:5.18.5-1ubuntu2) | kwin-wayland-backend-virtual (= 4:5.18.5-1ubuntu2) | kwin-wayland-backend-wayland (= 4:5.18.5-1ubuntu2), libcap2-bin, xwayland, libc6 (>= 2.17), libcap2 (>= 1:2.10), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libkf5coreaddons5 (>= 5.2.0), libkf5crash5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5idletime5 (>= 5.13.0), libkf5quickaddons5 (>= 5.26.0), libkf5waylandclient5 (>= 4:5.41.0+git20171227), libkf5waylandserver5 (>= 4:5.56.0), libkf5windowsystem5 (>= 5.7.0+git20150224.0052+15.04), libkwineffects12 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.10.0), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.12.5) | libqt5gui5-gles (>= 5.12.5), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-xfixes0, libxcb1, qtbase-abi-5-12-8
+Provides: kwin
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/u/ubuntudde-kwin/kwin-wayland_5.18.5-1ubuntu2_arm64.deb
+Size: 185724
+SHA256: 93e63ce5ba9907465dcd89d427be53de69e76453e79caf1b699f83de84608ad4
+SHA1: f0aff2bc6a9856f9019277cc1ed7643cae26e28e
+MD5sum: 542215ecc1ed6623cb00186c54fffa26
+Description: KDE window manager, wayland version, PREVIEW release
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package provides the wayland version, which is still a work in progress
+ project, and is available as a PREVIEW release. Don't expect the same
+ stability as with the x11 version.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: kwin-wayland-backend-drm
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 308
+Depends: kwin-common, libc6 (>= 2.17), libdrm2 (>= 2.4.62), libepoxy0 (>= 1.3), libgbm1 (>= 10.2~0), libkf5configcore5 (>= 4.97.0), libkf5i18n5 (>= 4.97.0), libkf5waylandserver5 (>= 4:5.62.0), libkwineffects12 (>= 4:5.1.95+git20150122), libkwinglutils12 (>= 4:5.17.80), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~) | libqt5gui5-gles (>= 5.9.0~), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/u/ubuntudde-kwin/kwin-wayland-backend-drm_5.18.5-1ubuntu2_arm64.deb
+Size: 87504
+SHA256: 12f7acbcdb6acf00e9804520ddd2695c0b1f9dbd794c1f03f6744e0ecd71d025
+SHA1: 52883f5384f0587c0f4a04473fdd23f4ad7f2aa9
+MD5sum: 5cf2956b3b3cffd0f763e51149133dc2
+Description: KDE window manager drm plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: kwin-wayland-backend-fbdev
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 77
+Depends: kwin-common, libc6 (>= 2.17), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~) | libqt5gui5-gles (>= 5.9.0~), libstdc++6 (>= 5)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/u/ubuntudde-kwin/kwin-wayland-backend-fbdev_5.18.5-1ubuntu2_arm64.deb
+Size: 18908
+SHA256: 9080b6757bd82e93c6973b83694af70f9ab5f11324e61d492bfb05dc1b59f792
+SHA1: 0c9efab72a5a0ec55ee75ab31b1b76d1dedf7cac
+MD5sum: 9759b98ef5a47e34fbfa638dd2d26796
+Description: KDE window manager fbdev plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: kwin-wayland-backend-virtual
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 155
+Depends: kwin-common, libc6 (>= 2.17), libepoxy0 (>= 1.0), libkf5waylandserver5 (>= 4:5.62.0), libkwineffects12 (>= 4:5.1.95+git20150122), libkwinglutils12 (>= 4:5.17.80), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libstdc++6 (>= 5)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/u/ubuntudde-kwin/kwin-wayland-backend-virtual_5.18.5-1ubuntu2_arm64.deb
+Size: 41764
+SHA256: 5d1a6e69d133bb9d6b821ae6ed45fe0a2510886ec6b168eeba0f45eff37779a7
+SHA1: db0bdf11ed7af388221e72c11e4c790e55f916cc
+MD5sum: df812d73062c4992a75e2185cc8cb11c
+Description: KDE window manager virtual plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This backend allows running kwin-wayland in headless mode, useful for testing,
+ or in the Cloud.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: kwin-wayland-backend-wayland
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 215
+Depends: kwin-common, libc6 (>= 2.17), libepoxy0 (>= 1.0), libkf5i18n5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.30.0), libkf5waylandserver5 (>= 4:5.62.0), libkwineffects12 (>= 4:5.1.95+git20150122), libkwinglutils12 (>= 4:5.17.80), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~) | libqt5gui5-gles (>= 5.9.0~), libstdc++6 (>= 5), libwayland-egl1 (>= 1.15.0)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/u/ubuntudde-kwin/kwin-wayland-backend-wayland_5.18.5-1ubuntu2_arm64.deb
+Size: 54876
+SHA256: 5037db2fd959b22488ca5e076fe4c70c520548905171086657f4de191839279f
+SHA1: e11ce634e474aa4476b4ede53f9690ce353c7838
+MD5sum: 8877414235d8f1dfa04eba293874e034
+Description: KDE window manager nested wayland plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: kwin-wayland-backend-x11
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 183
+Depends: kwin-common, libc6 (>= 2.17), libepoxy0 (>= 1.0), libkf5i18n5 (>= 4.97.0), libkf5waylandserver5 (>= 4:5.62.0), libkf5windowsystem5 (>= 4.98.0), libkwineffects12 (>= 4:5.1.95+git20150122), libkwinglutils12 (>= 4:5.17.80), libkwinxrenderutils12 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libstdc++6 (>= 5), libx11-6, libx11-xcb1 (>= 2:1.6.9), libxcb-keysyms1 (>= 0.4.0), libxcb-render0, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2)
+Provides: kwin-wayland-backend
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/u/ubuntudde-kwin/kwin-wayland-backend-x11_5.18.5-1ubuntu2_arm64.deb
+Size: 50944
+SHA256: cf95451fdc3c8e9e9e9afa1acdea4fe9f433dbdafa815a43a13860f555ab4807
+SHA1: 63933c074730b3847d3285bc19b504cec5e5342d
+MD5sum: 47e202bb803cf672c7b413cd58cda6fa
+Description: KDE window manager x11 plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: kwin-x11
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 443
+Depends: kwin-common (= 4:5.18.5-1ubuntu2), libkwinglutils12 (= 4:5.18.5-1ubuntu2), libkwinxrenderutils12 (= 4:5.18.5-1ubuntu2), libc6 (>= 2.17), libepoxy0 (>= 1.2), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.11.0), libkf5crash5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5quickaddons5 (>= 5.26.0), libkf5waylandserver5 (>= 4:5.62.0), libkf5windowsystem5 (>= 4.96.0), libkwineffects12 (>= 4:5.17.80), libqt5core5a (>= 5.9.0~), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5widgets5 (>= 5.9.0~), libqt5x11extras5 (>= 5.9.0~), libstdc++6 (>= 5), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2)
+Breaks: kde-window-manager (<< 4:5)
+Replaces: kde-window-manager (<< 4:5)
+Provides: kwin, x-window-manager
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/u/ubuntudde-kwin/kwin-x11_5.18.5-1ubuntu2_arm64.deb
+Size: 116916
+SHA256: 40ae6efa83b064a2e3a332fc6483e4fe57bfeb962795a0b1d76c8876587fefeb
+SHA1: 38ed56e27bae0c6eb9ffb088deb24fa8914aa3d5
+MD5sum: c0bea19a87a68e5ce0f1933588522f8e
+Description: KDE window manager, X11 version
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: libcogl-common
+Source: cogl
+Version: 1.22.6-2
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 756
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Filename: pool/main/c/cogl/libcogl-common_1.22.6-2_all.deb
+Size: 265460
+SHA256: 6e5e3e5396fb73596b48acf1a4c2bbfd9fca8f7a6d13364448bd2b0934676356
+SHA1: 6ee6f19f6ce114e862b5988e828b62f4cbcef51b
+MD5sum: 862691fabe5b29130b2f6fd8ea53bc43
+Description: Object oriented GL/GLES Abstraction/Utility Layer (common files)
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+ .
+ This package contains the common files, such as translations.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libcogl-dev
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 2847
+Depends: libcogl20 (= 1.22.6-2), gir1.2-cogl-1.0 (= 1.22.6-2), libgl1-mesa-dev (>= 7.1~rc3-1~), libgles2-mesa-dev (>= 7.1~rc3-1~) | libgles2-dev, libglib2.0-dev (>= 2.28.0), libdrm-dev, libwayland-dev, libgbm-dev, libgdk-pixbuf2.0-dev (>= 2.0), libx11-dev, libxcomposite-dev, libxext-dev, libxfixes-dev, libxdamage-dev
+Recommends: pkg-config
+Suggests: libcogl-doc
+Priority: optional
+Section: libdevel
+Filename: pool/main/c/cogl/libcogl-dev_1.22.6-2_arm64.deb
+Size: 233224
+SHA256: 474a6e7b0241e091f25648979079329d46005373b0be7a0a24badb48ae845ac0
+SHA1: 01af4de163f127bf68006e2c89d5637e136ef23e
+MD5sum: 2f381988eea23ceb6e53cdbe25d29d95
+Description: Object oriented GL/GLES Abstraction/Utility Layer (development files)
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+ .
+ This package contains the development files for libcogl.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libcogl-doc
+Source: cogl
+Version: 1.22.6-2
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 4002
+Suggests: devhelp
+Priority: optional
+Section: doc
+Filename: pool/main/c/cogl/libcogl-doc_1.22.6-2_all.deb
+Size: 253112
+SHA256: 42ffc60e952a2be77350d25dd2d6ed503b08350e744a529a2ec2bd052958cba0
+SHA1: df4124a4944cbfe932410e8d3c0be9b842f8b0f9
+MD5sum: 4b99b6841aa8319daa1de41aafaf7e5c
+Description: Object oriented GL/GLES Abstraction/Utility Layer (documentation)
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+ .
+ This package contains the documentation.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libcogl-gles2-20
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 77
+Depends: libgl1-mesa-glx
+Recommends: libcogl-common
+Suggests: libgles2-mesa | libgles2
+Replaces: libcogl12 (<< 1.13.4-2)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/c/cogl/libcogl-gles2-20_1.22.6-2_arm64.deb
+Size: 36268
+SHA256: e3474c509d98b7f5b87308085b542d3e16f8a599dfc02fcd56c43a7ebd8b3744
+SHA1: 663f3300da8e8f68936cf2644d06b7d46a9ba0e3
+MD5sum: e7fab974c8695b384b6d111ba5c5e1bc
+Description: Object oriented GL/GLES Abstraction/Utility Layer
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+ .
+ This package contains the GLES2 library.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libcogl-gles2-dev
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 137
+Depends: libcogl-gles2-20 (= 1.22.6-2), libcogl-dev (= 1.22.6-2)
+Recommends: pkg-config
+Suggests: libcogl-doc
+Breaks: libcogl-dev (<< 1.14.0-1)
+Replaces: libcogl-dev (<< 1.14.0-1)
+Priority: optional
+Section: libdevel
+Filename: pool/main/c/cogl/libcogl-gles2-dev_1.22.6-2_arm64.deb
+Size: 40348
+SHA256: edce7607963896fa79b31b44b53b6e0157cc0f934c466679601d2640db4c5e16
+SHA1: 20032ac595e98fd83487c5086f1cb603f3eefc3b
+MD5sum: c2ec202d3536144b23aabbd3b344bb61
+Description: Object oriented GL/GLES Abstraction/Utility Layer (development files)
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+ .
+ This package contains the development files for libcogl.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libcogl-gst-dev
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 105
+Depends: libcogl-gst20 (= 1.22.6-2), gir1.2-coglgst-2.0 (= 1.22.6-2), libcogl-dev (= 1.22.6-2), libglib2.0-dev (>= 2.28.0), libcairo2-dev (>= 1.10), libdrm-dev, libgdk-pixbuf2.0-dev (>= 2.0), libx11-dev, libxcomposite-dev, libxext-dev, libxfixes-dev, libxdamage-dev, libgstreamer-plugins-base1.0-dev
+Recommends: pkg-config
+Suggests: libcogl-doc
+Priority: optional
+Section: libdevel
+Filename: pool/main/c/cogl/libcogl-gst-dev_1.22.6-2_arm64.deb
+Size: 37056
+SHA256: ebe66cac3974b2845dbaa836d179b2b7a588c4fd645d7eb73edcae6630855223
+SHA1: 6241ce1f54e08ae8f193a5ef75589bb11ee1ec98
+MD5sum: 878a50b2a4f3bd4664b40be53657674a
+Description: Object oriented GL/GLES Abstraction/Utility Layer (development file
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+ .
+ This package contains the development files for libcogl-gst.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libcogl-gst20
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 83
+Depends: libc6 (>= 2.17), libcogl20 (>= 1.22.6), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.2.3-1co2), libgstreamer1.0-0 (>= 1.0.0)
+Recommends: libcogl-common
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/c/cogl/libcogl-gst20_1.22.6-2_arm64.deb
+Size: 39444
+SHA256: 03decab8f6ca7d86576a08c02c11e72bd0eb5918092d56509f7f51e4fa7f9b58
+SHA1: 8e09e4760842299b680c9444967f8b454025e7ef
+MD5sum: 2dc8de63970193399d2a5daa2150d3a9
+Description: Object oriented GL/GLES Abstraction/Utility Layer
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+ .
+ This package contains the GStreamer integration library, which provides
+ a video sink to paint with cogl.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libcogl-gst20-dbg
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 101
+Depends: libcogl-gst20 (= 1.22.6-2)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/c/cogl/libcogl-gst20-dbg_1.22.6-2_arm64.deb
+Size: 75072
+SHA256: e684a3385a85312d4227c4601f71e3349543b43b25ee0b9adc1a9d395e3fe361
+SHA1: 5ec65f4df5dc78ae0b32765314765240d7d6c47c
+MD5sum: 144e1b16a715f5635011b2d898078ead
+Description: Object oriented GL/GLES Abstraction/Utility Layer (debug files)
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+ .
+ This package contains the debug files for libcogl-gst.
+Build-Ids: 55a9dc2b8211c1bc497f9cd0f0d02c7886873a67
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libcogl-pango-dev
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 104
+Depends: libcogl-pango20 (= 1.22.6-2), gir1.2-coglpango-1.0 (= 1.22.6-2), libcogl-dev (= 1.22.6-2), libglib2.0-dev (>= 2.28.0), libcairo2-dev (>= 1.10), libdrm-dev, libgdk-pixbuf2.0-dev (>= 2.0), libpango1.0-dev (>= 1.20), libx11-dev, libxcomposite-dev, libxext-dev, libxfixes-dev, libxdamage-dev
+Recommends: pkg-config
+Suggests: libcogl-doc
+Priority: optional
+Section: libdevel
+Filename: pool/main/c/cogl/libcogl-pango-dev_1.22.6-2_arm64.deb
+Size: 34320
+SHA256: 924e2aa03d19539e475e404694aa7b9964ad650c374035161519b1650a1b06a3
+SHA1: 032548b406a1e1a3c72723de8e9aaab83808fd8a
+MD5sum: 967d3420d1c89511e8fd17e5c0a222d4
+Description: Object oriented GL/GLES Abstraction/Utility Layer (development files)
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+ .
+ This package contains the development files for libcogl-pango.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libcogl-pango20
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 82
+Depends: libc6 (>= 2.17), libcairo2 (>= 1.10), libcogl20 (>= 1.22.6), libglib2.0-0 (>= 2.37.3), libpango-1.0-0 (>= 1.28.3-5), libpangocairo-1.0-0 (>= 1.28.3-5)
+Recommends: libcogl-common
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/c/cogl/libcogl-pango20_1.22.6-2_arm64.deb
+Size: 40704
+SHA256: e9b8efe86b7dfb68e9f4cc9113ff0b82e3f617800ab9af139f36b15d3c871239
+SHA1: eb028862373c4af4bf975e01e82e563e32db9eb8
+MD5sum: d7057a4531aa4dac1e565a65c4d0bb15
+Description: Object oriented GL/GLES Abstraction/Utility Layer
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libcogl-pango20-dbg
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 172
+Depends: libcogl-pango20 (= 1.22.6-2)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/c/cogl/libcogl-pango20-dbg_1.22.6-2_arm64.deb
+Size: 142796
+SHA256: 512fa412b083c40bb81bc12efdc290db42c3ca4f402ef29c1b10cc777ca1801a
+SHA1: 20a802ec4d418b11fb9349cdd053ab2fbab13d90
+MD5sum: b439598c135a24f73d7c46034f21b35b
+Description: Object oriented GL/GLES Abstraction/Utility Layer (debug files)
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+ .
+ This package contains the debug files for libcogl-pango.
+Build-Ids: 4367c7be63ec3297d31becd2f9e173804ddf64f7
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libcogl-path-dev
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 90
+Depends: libcogl-path20 (= 1.22.6-2), libcogl-dev (= 1.22.6-2)
+Recommends: pkg-config
+Suggests: libcogl-doc
+Priority: optional
+Section: libdevel
+Filename: pool/main/c/cogl/libcogl-path-dev_1.22.6-2_arm64.deb
+Size: 35684
+SHA256: 5b40059d5c3ec4a5e6902b9c3dfdb1af744d01da546dfce7d2cf988125d3efbf
+SHA1: a99f70bbf6f47896f29a863520677167933a0d38
+MD5sum: a4caeea5b32b6d4f6f005e0fd19e1e16
+Description: Object oriented GL/GLES Abstraction/Utility Layer (development files)
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+ .
+ This package contains the development files for libcogl-path.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libcogl-path20
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 118
+Depends: libc6 (>= 2.17), libcogl20 (>= 1.22.6), libglib2.0-0 (>= 2.32.0)
+Recommends: libcogl-common
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/c/cogl/libcogl-path20_1.22.6-2_arm64.deb
+Size: 54728
+SHA256: 311b7a91cfc8dea5b849d9a4a789b73e0c9e4db80a6f5fe7790d7124ab7824bb
+SHA1: 1699699313b502156ce46102febde826438c3055
+MD5sum: c1eb77f2b26b2bc6c60fefcec8abfe73
+Description: Object oriented GL/GLES Abstraction/Utility Layer
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libcogl20
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 778
+Depends: libc6 (>= 2.17), libcairo2 (>= 1.10), libdrm2 (>= 2.4.17), libegl1, libgbm1 (>= 8.1~0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.32.0), libwayland-client0 (>= 1.9.91), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.2.0), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.2.0), libgl1-mesa-glx
+Recommends: libcogl-common
+Suggests: libgles2-mesa | libgles2
+Breaks: libclutter-1.0-0 (<< 1.17), libcogl11, libcogl12, libcogl15, libcogl9
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/c/cogl/libcogl20_1.22.6-2_arm64.deb
+Size: 266768
+SHA256: a508cef8faa748b55c924d053e3410e7cb241f6535472d877ae6cf9c35de12f3
+SHA1: bca3029c65a5684a329ce570da6b6a2d813ffd18
+MD5sum: 7cb70bb00e1c7765af425fae3541b95b
+Description: Object oriented GL/GLES Abstraction/Utility Layer
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libcogl20-dbg
+Source: cogl
+Version: 1.22.6-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 2556
+Depends: libcogl20 (= 1.22.6-2)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/c/cogl/libcogl20-dbg_1.22.6-2_arm64.deb
+Size: 2418932
+SHA256: 1fc7ca10b7655404f7bff33f66fb3b208c4260bc5988e0deaaceaf84d28a04c7
+SHA1: d83ae90e09da0468f4a3b92b6c5ad40c795f5868
+MD5sum: 5ce0ca80ca4b7f7dbeca695f6f03ece8
+Description: Object oriented GL/GLES Abstraction/Utility Layer (debug files)
+ Cogl is a small open source library for using 3D graphics hardware to draw
+ pretty pictures. The API departs from the flat state machine style of
+ OpenGL and is designed to make it easy to write orthogonal components that
+ can render without stepping on each others toes.
+ .
+ This package contains the debug files for libcogl.
+Build-Ids: 3d62ac2b80cdea2ceb1facf1657f6732d4e54c30
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libdde-file-manager
+Source: dde-file-manager
+Version: 5.0.0-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 9831
+Depends: libc6 (>= 2.29), libdisomaster, libdmr0.1 (>= 3.2.9), libdtkcore2 (>= 2.1.1), libdtkwidget2 (>= 2.0.11), libffmpegthumbnailer4v5, libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.49.2), libjemalloc2 (>= 5.0.0), libkf5codecs5 (>= 4.96.0), libpoppler-cpp0v5 (>= 0.48.0), libqt5core5a (>= 5.12.2), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.9.0~beta) | libqt5gui5-gles (>= 5.9.0~beta), libqt5multimedia5 (>= 5.6.0~beta), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libudisks2-qt5, qtbase-abi-5-12-8, gvfs-backends (>= 1.27.3), cryptsetup
+Breaks: dde-file-manager (<= 1.2.3-3)
+Multi-Arch: same
+Homepage: http://www.deepin.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/dde-file-manager/libdde-file-manager_5.0.0-2_arm64.deb
+Size: 2336632
+SHA256: 21eb79d7b72a933d898d2742796b949db0caf94f49d1e3d0d9c1cc005e70c7a6
+SHA1: 9157e793f57c236643a59e3be74b6259eb1434d5
+MD5sum: 43e489c4498e38bdea76965e83e07898
+Description: DDE File Manager library
+ This package contains the shared libraries.
+Original-Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+
+Package: libdde-file-manager-dev
+Source: dde-file-manager
+Version: 5.0.0-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 261
+Depends: libdde-file-manager (= 5.0.0-2)
+Homepage: http://www.deepin.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/dde-file-manager/libdde-file-manager-dev_5.0.0-2_arm64.deb
+Size: 35012
+SHA256: 107ab2c64a57aecd0f015830786ba53b15bd1ad45681f1784b05e0fb6123e389
+SHA1: f87be756065402c94c3b8022daad209986a95e74
+MD5sum: c1627827f0afb682c9ac7ed9bde76e3d
+Description: DDE File Manager Devel library
+ This package contains the header files and static libraries
+ of libdde-file-manager
+Original-Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+
+Package: libdde-network-utils
+Source: dde-network-utils
+Version: 5.0.1
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 382
+Depends: libc6 (>= 2.17), libdframeworkdbus2 (>= 5.0.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/linuxdeepin/dde-network-utils
+Priority: optional
+Section: libs
+Filename: pool/main/d/dde-network-utils/libdde-network-utils_5.0.1_arm64.deb
+Size: 81096
+SHA256: a45f19fda87d2598415dc615cb93308984f3fbd9e0271d834949a928568a8d24
+SHA1: d9fd72ffd8a4718f333c2d60fdd52e674032aa5b
+MD5sum: 44d845a1bc9784aa36111b97a6a75735
+Description: DDE network utils
+ DDE network utils.
+Original-Maintainer: listenerri <listenerri@gmail.com>
+
+Package: libdde-network-utils-dev
+Source: dde-network-utils
+Version: 5.0.1
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 44
+Depends: libdde-network-utils
+Homepage: https://github.com/linuxdeepin/dde-network-utils
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/dde-network-utils/libdde-network-utils-dev_5.0.1_arm64.deb
+Size: 5760
+SHA256: 1e405165940213171391dd68cd23c2bd4a542af588d912f6b6cfd95fb6014037
+SHA1: 3433a9f1ef12f0fad36c3aa510eba172a3098e06
+MD5sum: 2f9f1d3d4b16043faeef2697c0065beb
+Description: DDE network utils dev
+ DDE network utils dev.
+Original-Maintainer: listenerri <listenerri@gmail.com>
+
+Package: libdeepin-metacity-dev
+Source: deepin-metacity
+Version: 3.22.24
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 97
+Depends: libgtk-3-dev, libdeepin-metacity-private3 (= 3.22.24)
+Homepage: https://git.gnome.org/browse/metacity
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/deepin-metacity/libdeepin-metacity-dev_3.22.24_arm64.deb
+Size: 18900
+SHA256: 7ffa7f91802cfc92bfe1e9a830d0f708eaa9ec009b4deb906a4b8e3b025758e5
+SHA1: 0e3adcb574a647994bdadac563214ff6c9747735
+MD5sum: d5f9995c5d514f38eb93320c90fa00e3
+Description: development files for the Metacity window manager
+ Metacity is a small window manager, using GTK+ to do everything.
+ .
+ As the author says, metacity is a "Boring window manager for the adult in
+ you. Many window managers are like Marshmallow Froot Loops; Metacity is
+ like Cheerios."
+ .
+ This package contains the development files.
+Original-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+
+Package: libdeepin-metacity-private3
+Source: deepin-metacity
+Version: 3.22.24
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 1089
+Depends: deepin-metacity-common (= 3.22.24), libatk1.0-0 (>= 1.12.4), libbamf3-2 (>= 0.2.20), libc6 (>= 2.29), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.19.12), libgtop-2.0-11 (>= 2.22.3), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 1.2.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsm6, libstartup-notification0 (>= 0.7), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.4.5), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2, libxrender1
+Homepage: https://git.gnome.org/browse/metacity
+Priority: optional
+Section: libs
+Filename: pool/main/d/deepin-metacity/libdeepin-metacity-private3_3.22.24_arm64.deb
+Size: 257428
+SHA256: ac2410e0dd7f93eed3921054afc7c3c121e48884dfd18adcc8b648b5812b3cea
+SHA1: 3cc0d7dfc47330c25169df2059e80be2a2bab2fe
+MD5sum: 71cfa67ecc4b739dba69225a7b5f3838
+Description: library for the Metacity window manager
+ Metacity is a small window manager, using GTK+ to do everything.
+ .
+ As the author says, metacity is a "Boring window manager for the adult in
+ you. Many window managers are like Marshmallow Froot Loops; Metacity is
+ like Cheerios."
+ .
+ This package contains the shared library.
+Original-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+
+Package: libdeepin-mutter-dev
+Source: deepin-mutter
+Version: 3.20.38-1
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 778
+Depends: libdeepin-mutter0g (= 3.20.38-1), gir1.2-deepin-mutter-3.0 (= 3.20.38-1), gsettings-desktop-schemas-dev, libclutter-1.0-dev, libgtk-3-dev, libx11-dev
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/deepin-mutter/libdeepin-mutter-dev_3.20.38-1_arm64.deb
+Size: 84752
+SHA256: ce84ad5b56a55ff6acdad67cfe80d6ea45e9a027c8df781a5545d32648a6a77d
+SHA1: 361d4afc7390b786c6b8ef6c19e45eec09118824
+MD5sum: 11e76c41c43ebb75ce5af24a8e1a44db
+Description: Development files for the Mutter window manager
+ Mutter is a small window manager, using GTK+ and Clutter to do
+ everything.
+ .
+ Mutter is the clutter-based evolution of Metacity, which, as the
+ author says, is a "Boring window manager for the adult in you. Many
+ window managers are like Marshmallow Froot Loops; Metacity is like
+ Cheerios."
+ .
+ This package contains the development files.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: libdeepin-mutter0g
+Source: deepin-mutter
+Version: 3.20.38-1
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 1127
+Depends: libc6 (>= 2.29), libcairo2 (>= 1.14.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libclutter-1.0-0 (>= 1.25.6), libcogl20 (>= 1.22.6), libdrm2 (>= 2.4.47), libgbm1 (>= 8.1~0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgirepository-1.0-1 (>= 0.9.12), libglib2.0-0 (>= 2.39.4), libgnome-desktop-3-19 (>= 3.17.92), libgtk-3-0 (>= 3.19.12), libgudev-1.0-0 (>= 165), libice6 (>= 1:1.0.0), libinput10 (>= 0.15.0), libpango-1.0-0 (>= 1.14.0), libsm6, libstartup-notification0 (>= 0.7), libsystemd0 (>= 212), libupower-glib3 (>= 0.99.0), libwayland-client0 (>= 1.5.90), libwayland-server0 (>= 1.5.91), libx11-6 (>= 2:1.2.99.901), libx11-xcb1 (>= 2:1.6.9), libxcb-randr0 (>= 1.1), libxcb1, libxcomposite1 (>= 1:0.4.5), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6 (>= 2:1.3.0), libxfixes3 (>= 1:5.0), libxi6 (>= 2:1.6.99.1), libxinerama1, libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2 (>= 2:1.5.0), libxrender1, deepin-desktop-schemas, deepin-mutter-common (= 3.20.38-1)
+Conflicts: libdeepin-mutter0, libdeepin-mutter0a, libdeepin-mutter0b, libdeepin-mutter0c, libdeepin-mutter0d, libdeepin-mutter0e, libdeepin-mutter0f
+Priority: optional
+Section: libs
+Filename: pool/main/d/deepin-mutter/libdeepin-mutter0g_3.20.38-1_arm64.deb
+Size: 363432
+SHA256: 489de2f0057144494e4315b3ddd6d0a7fa0188ab592670e883a56aa5968d5c1c
+SHA1: bdb742b21cfb8be1ea3f2fe3f77a9a71fc91800d
+MD5sum: ce1083b62c696f155d5714c07fe0d843
+Description: window manager library from the Mutter window manager
+ Mutter is a small window manager, using GTK+ and Clutter to do
+ everything.
+ .
+ Mutter is the clutter-based evolution of Metacity, which, as the
+ author says, is a "Boring window manager for the adult in you. Many
+ window managers are like Marshmallow Froot Loops; Metacity is like
+ Cheerios."
+ .
+ This package contains the window manager shared library, used by mutter
+ itself, and gnome-shell.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: libdeepin-wm-dev
+Source: deepin-wm
+Version: 1.9.38
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 40
+Depends: libclutter-gtk-1.0-dev, libdeepin-wm0 (= 1.9.38), libgdk-pixbuf2.0-dev, libglib2.0-dev (>= 2.32), libdeepin-mutter-dev (>= 3.8.4)
+Homepage: https://github.com/linuxdeepin/deepin-wm
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/deepin-wm/libdeepin-wm-dev_1.9.38_arm64.deb
+Size: 7212
+SHA256: 966de0da0d5573d53632510dbeff8f652f589d54380ca178afc2195cac20f36c
+SHA1: 647dd226ce8807c72a65aa976e6786118ff681fd
+MD5sum: 807e494fb1fe053ab24baaf544eceee7
+Description: Library to build plugins for Deepin Window Manager (development files)
+ deepin-wm(fork of gala) is a window & compositing manager based on libmutter. It manages the
+ various windows a user has open.
+ It takes care of behaviors such as moving windows around, window switching,
+ window overview, animating windows, maximization, multiple workspaces,
+ providing accessibility features like zoom, and more.
+ .
+ This package contains the development files used for deepin-wm.
+Original-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+
+Package: libdeepin-wm0
+Source: deepin-wm
+Version: 1.9.38
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 82
+Depends: libbamf3-2 (>= 0.2.20), libc6 (>= 2.17), libcairo2 (>= 1.2.4), libclutter-1.0-0 (>= 1.10.0), libclutter-gtk-1.0-0 (>= 0.91.8), libdeepin-mutter0g, libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.4.0), libwnck-3-0 (>= 3.4.7)
+Multi-Arch: same
+Homepage: https://github.com/linuxdeepin/deepin-wm
+Priority: optional
+Section: x11
+Filename: pool/main/d/deepin-wm/libdeepin-wm0_1.9.38_arm64.deb
+Size: 22160
+SHA256: 43e4c90dc21ea029650b498aa293ee55cf33ec6b6d76b90bcaf7ba6c1a7f3a59
+SHA1: c1891dec33437484ded57d5755ebd343b3310017
+MD5sum: 41c05ec27b98ca4b1ed0e10a4b923a70
+Description: Library to build plugins for Deepin Window Manager
+ deepin-wm(fork of gala) is a window & compositing manager based on libmutter. It manages the
+ various windows a user has open.
+ It takes care of behaviors such as moving windows around, window switching,
+ window overview, animating windows, maximization, multiple workspaces,
+ providing accessibility features like zoom, and more.
+ .
+ This package contains the shared library used for deepin-wm.
+Original-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+
+Package: libdisomaster
+Source: disomaster
+Version: 5.0.0
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 73
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libisoburn1 (>= 1.5.2), libqt5core5a (>= 5.5.0), libstdc++6 (>= 5.2)
+Homepage: https://github.com/linuxdeepin/disomaster
+Priority: optional
+Section: libs
+Filename: pool/main/d/disomaster/libdisomaster_5.0.0_arm64.deb
+Size: 19476
+SHA256: ee6af4976596ff2ae0fa06a942ab38fa1273be46759829cbcff9a4462979a068
+SHA1: 0a2ba252044c6d23b140f839e14fd149be5fe5a3
+MD5sum: 9240404e84cf7f07b6aaf16685d052f7
+Description: libisoburn wrapper for Qt.
+Original-Maintainer: Chris Xiong <chirs241097@gmail.com>
+
+Package: libdisomaster-dev
+Source: disomaster
+Version: 5.0.0
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 17
+Depends: libdisomaster
+Homepage: https://github.com/linuxdeepin/disomaster
+Priority: optional
+Section: libs
+Filename: pool/main/d/disomaster/libdisomaster-dev_5.0.0_arm64.deb
+Size: 3372
+SHA256: ddbb1d7bb623de8a736dc8ff27b6b8110c562be34e301d1059ce578b25a006b4
+SHA1: 06ca32f2474f34a725f6579e097e0c609da5e326
+MD5sum: 06ba52cf6a5ee4a7d20beb1162a4dacc
+Description: Development package for libdisomaster.
+Original-Maintainer: Chris Xiong <chirs241097@gmail.com>
+
+Package: libdtkgui-bin
+Source: dtkgui
+Version: 2.1.1
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 40
+Depends: libc6 (>= 2.17), libdtkcore2 (>= 2.1.1), libdtkgui2 (= 2.1.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/dtkgui/libdtkgui-bin_2.1.1_arm64.deb
+Size: 9508
+SHA256: 9f899ff6787fc54cc59770c6506a9f16f13a2aaddecaf02d68123980356c50f0
+SHA1: e11cd834c46654c75c4e529aa246e08728da2cf4
+MD5sum: 2503f6933aa1f1d402468d87f10947c6
+Description: Deepin Tool Kit Gui Utilities
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkGui
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: libdtkgui-dev
+Source: dtkgui
+Version: 2.1.1
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 31
+Depends: libdtkgui2 (= 2.1.1)
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/dtkgui/libdtkgui-dev_2.1.1_arm64.deb
+Size: 3748
+SHA256: 3d9a602b9667092e66e2e92705b9ac17a6fefc02b963eff1ad8ea44f744837c7
+SHA1: 186d7e1f7fe77adc22da5f3c6ea1b02a96c13cc9
+MD5sum: 91f6551ba024ecc0a8fa2a29eb14c8b1
+Description: Deepin Tool Kit Gui Devel library
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkGui
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: libdtkgui2
+Source: dtkgui
+Version: 2.1.1
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 37
+Depends: libc6 (>= 2.17), libdtkcore2 (>= 2.1.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libstdc++6 (>= 4.1.1), qtbase-abi-5-12-8
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Filename: pool/main/d/dtkgui/libdtkgui2_2.1.1_arm64.deb
+Size: 8692
+SHA256: 1a1052453039a59837667cdbfc807d4e1abbf9365fa13a71cdb94893db742be2
+SHA1: 590bb5aadb2e485fcae5f771e310dec8c5aef8fb
+MD5sum: e3d542cea948291c7d4c0af2ac87d3f9
+Description: Deepin Tool Kit Gui library
+ DtkGui is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: libgnome-keyring-common
+Source: libgnome-keyring
+Version: 3.12.0+13+g4f8ab73-2
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 314
+Breaks: libgnome-keyring0 (<< 3.2.0-4)
+Replaces: libgnome-keyring0 (<< 3.2.0-4)
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/GnomeKeyring
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgnome-keyring/libgnome-keyring-common_3.12.0+13+g4f8ab73-2_all.deb
+Size: 30324
+SHA256: cc438e3a35cf922d0398228d24fbada21e871f6a402fc6cb4285188aedb9802a
+SHA1: 4042afc1201b3b1d09fb82eead35a5d8b1b87896
+MD5sum: e23211293b3133662dfc4ad0547c2116
+Description: GNOME keyring services library - data files
+ gnome-keyring is a daemon in the session, similar to ssh-agent,
+ and other applications can use it to store passwords and other
+ sensitive information.
+ .
+ The program can manage several keyrings, each with its own master
+ password, and there is also a session keyring which is never stored to
+ disk, but forgotten when the session ends.
+ .
+ This package contains data files and translations for the GNOME keyring
+ library.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libgnome-keyring-dev
+Source: libgnome-keyring
+Version: 3.12.0+13+g4f8ab73-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 926
+Depends: libgnome-keyring0 (= 3.12.0+13+g4f8ab73-2), gir1.2-gnomekeyring-1.0 (= 3.12.0+13+g4f8ab73-2), libglib2.0-dev (>= 2.16)
+Homepage: https://wiki.gnome.org/GnomeKeyring
+Priority: optional
+Section: libdevel
+Filename: pool/main/libg/libgnome-keyring/libgnome-keyring-dev_3.12.0+13+g4f8ab73-2_arm64.deb
+Size: 57532
+SHA256: 433ad97deee69d4c8a272807bb3d93e2e733d60cd22c82014eba8599c0be4617
+SHA1: d3dc136f85f8d2b721520e203d67fe9ef7ecf884
+MD5sum: 68b5ab76f4dd5bbc73b462c0a1526d00
+Description: Development files for GNOME keyring service
+ gnome-keyring is a daemon in the session, similar to ssh-agent,
+ and other applications can use it to store passwords and other
+ sensitive information.
+ .
+ The program can manage several keyrings, each with its own master
+ password, and there is also a session keyring which is never stored to
+ disk, but forgotten when the session ends.
+ .
+ This package contains development files for GNOME.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libgnome-keyring0
+Source: libgnome-keyring
+Version: 3.12.0+13+g4f8ab73-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 176
+Depends: libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libgcrypt20 (>= 1.8.0), libglib2.0-0 (>= 2.41.1), libgnome-keyring-common (= 3.12.0+13+g4f8ab73-2)
+Suggests: gnome-keyring
+Breaks: gnome-keyring (<< 3.0)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/GnomeKeyring
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgnome-keyring/libgnome-keyring0_3.12.0+13+g4f8ab73-2_arm64.deb
+Size: 54152
+SHA256: 2b2f81a7d4d2d3991c42d1a1e72a9c1a99284e9228df268f341cde097d07c00d
+SHA1: c65714f23a9617a029d83551702db81e72c7179b
+MD5sum: fb4a9232e7fbd6bb51aa54b1b1212c51
+Description: GNOME keyring services library
+ gnome-keyring is a daemon in the session, similar to ssh-agent,
+ and other applications can use it to store passwords and other
+ sensitive information.
+ .
+ The program can manage several keyrings, each with its own master
+ password, and there is also a session keyring which is never stored to
+ disk, but forgotten when the session ends.
+ .
+ This package contains shared libraries for GNOME.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libgnome-keyring0-dbg
+Source: libgnome-keyring
+Version: 3.12.0+13+g4f8ab73-2
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 241
+Depends: libgnome-keyring0 (= 3.12.0+13+g4f8ab73-2)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/GnomeKeyring
+Priority: extra
+Section: debug
+Filename: pool/main/libg/libgnome-keyring/libgnome-keyring0-dbg_3.12.0+13+g4f8ab73-2_arm64.deb
+Size: 194560
+SHA256: 4619d72d6a6c8fd56495d6b890fa1eb5908fc7ab2cb8d8ee9cbaeb168ed5667d
+SHA1: 5108833d82f86cd99f74db23157ecb16420b8b31
+MD5sum: 30b3f86097b2a3aac6c7de6f9b1cae6e
+Description: GNOME keyring services library (debugging symbols)
+ gnome-keyring is a daemon in the session, similar to ssh-agent,
+ and other applications can use it to store passwords and other
+ sensitive information.
+ .
+ The program can manage several keyrings, each with its own master
+ password, and there is also a session keyring which is never stored to
+ disk, but forgotten when the session ends.
+ .
+ This package contains detached debugging symbols for the shared
+ libraries.
+ .
+ Most people should not need this package.
+Build-Ids: 3928d96cb0c3df320c1211465cb9f3520344768e
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libkwin4-effect-builtins1
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1095
+Depends: libkwineffects12 (= 4:5.18.5-1ubuntu2), libc6 (>= 2.29), libepoxy0 (>= 1.0), libkf5configcore5 (>= 5.66.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5globalaccel5 (>= 4.96.0), libkf5i18n5 (>= 4.97.0), libkf5iconthemes5 (>= 4.96.0), libkf5notifications5 (>= 5.8.0+git20150317.0114+15.04), libkf5plasma5 (>= 4.96.0), libkf5waylandserver5 (>= 4:5.5.0), libkf5windowsystem5 (>= 5.25.0), libkwinglutils12 (>= 4:5.17.80), libkwinxrenderutils12 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.9.0~), libqt5dbus5 (>= 5.9.0~), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-image0 (>= 0.2), libxcb-render0, libxcb1
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/u/ubuntudde-kwin/libkwin4-effect-builtins1_5.18.5-1ubuntu2_arm64.deb
+Size: 285972
+SHA256: 7d4e60857a444ec90e74a4c706db7279549f0d6bd940a0f2aa6431bf7127dc5c
+SHA1: 32fc54db6709304adf5c334da1f42a0f4735ad9e
+MD5sum: 602096d27a74875fb4e2ddd9dba129d2
+Description: KDE window manager effect builtins library
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: libkwineffects12
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 280
+Depends: libc6 (>= 2.17), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.99.0), libkf5declarative5 (>= 5.12.0), libkwinglutils12 (>= 4:5.17.80), libkwinxrenderutils12 (>= 4:5.1.95+git20150122), libqt5core5a (>= 5.12.2), libqt5gui5 (>= 5.12.2) | libqt5gui5-gles (>= 5.12.2), libqt5quick5 (>= 5.10.0) | libqt5quick5-gles (>= 5.10.0), libqt5widgets5 (>= 5.9.0~), libstdc++6 (>= 5), libxcb-xfixes0
+Breaks: libkwineffects10, libkwineffects11, libkwineffects5 (<< 4:5.2.0), libkwineffects6 (<< 4:5.4.1+git20150907), libkwineffects7 (<< 4:5.5.80+git20160203), libkwineffects8, libkwineffects9
+Replaces: libkwineffects10, libkwineffects11, libkwineffects5 (<< 4:5.2.0), libkwineffects6 (<< 4:5.4.1+git20150907), libkwineffects7 (<< 4:5.5.80+git20160203), libkwineffects8, libkwineffects9
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/u/ubuntudde-kwin/libkwineffects12_5.18.5-1ubuntu2_arm64.deb
+Size: 69856
+SHA256: a7d70bd49ce902772b78e95f49ba3ced68542af2c784ebaa04a5c1cebea00e7a
+SHA1: 3a528204f70f206a656b50627e6123be143f9755
+MD5sum: 8f76fdece23113ce166b104bb68e85b0
+Description: KDE window manager effects library
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: libkwinglutils12
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 194
+Depends: libc6 (>= 2.17), libepoxy0 (>= 1.0), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.9.0~) | libqt5gui5-gles (>= 5.9.0~), libstdc++6 (>= 5), libxcb1
+Breaks: kwin-common (<< 4:5.4), libkwin4-effect-builtins1 (<< 4:5.4), libkwinglutils10, libkwinglutils11, libkwinglutils5 (<< 4:5.2.0), libkwinglutils6 (<< 4:5.4.1+git20150907), libkwinglutils7 (<< 4.5.5.80+git20160203), libkwinglutils8, libkwinglutils9
+Replaces: libkwinglutils10, libkwinglutils11, libkwinglutils5 (<< 4:5.2.0), libkwinglutils6 (<< 4:5.4.1+git20150907), libkwinglutils7 (<< 4:5.5.80+git20160203), libkwinglutils8, libkwinglutils9
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/u/ubuntudde-kwin/libkwinglutils12_5.18.5-1ubuntu2_arm64.deb
+Size: 55088
+SHA256: c00dbda59952a96f70c388c4223cfc3fa3a52d0a8b815c3b66db4c0c774b665a
+SHA1: 164d95b96a9952c1a437e88868b11c30b8b618b5
+MD5sum: 7aef4faf20f45b462d987a889deaf7e4
+Description: KDE window manager gl utils library
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: libkwinxrenderutils12
+Source: ubuntudde-kwin
+Version: 4:5.18.5-1ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 59
+Depends: libc6 (>= 2.17), libqt5core5a (>= 5.9.0~), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libstdc++6 (>= 5), libxcb-render0, libxcb-xfixes0, libxcb1
+Breaks: libkwinxrenderutils10, libkwinxrenderutils11, libkwinxrenderutils5 (<< 4:5.2.0), libkwinxrenderutils6 (<< 4:5.4.1+git20150907), libkwinxrenderutils7 (<< 4:5.5.80+git20160203), libkwinxrenderutils8, libkwinxrenderutils9
+Replaces: libkwinxrenderutils10, libkwinxrenderutils11, libkwinxrenderutils5 (<< 4:5.2.0), libkwinxrenderutils6 (<< 4:5.4.1+git20150907), libkwinxrenderutils7 (<< 4:5.5.80+git20160203), libkwinxrenderutils8, libkwinxrenderutils9
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: libs
+Filename: pool/main/u/ubuntudde-kwin/libkwinxrenderutils12_5.18.5-1ubuntu2_arm64.deb
+Size: 15452
+SHA256: 0671f228c7e62a579b02eb69d1e39df1d410e7ef41ba3c62bb207da134be5731
+SHA1: 8584a7be34fb31f0d550ef6405ca896d5214da1c
+MD5sum: 358509fab953837b09a346f6993f48c1
+Description: KDE window manager render utils library
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: libudisks2-qt5
+Source: udisks2-qt5
+Version: 5.0.0
+Architecture: arm64
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 518
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5)
+Homepage: http://github.com/linuxdeepin/udisks2-qt5
+Priority: optional
+Section: admin
+Filename: pool/main/u/udisks2-qt5/libudisks2-qt5_5.0.0_arm64.deb
+Size: 117244
+SHA256: 270c7e4b7a326e68d49615a5041b9889d20c8a20469d3d46015979a6762021e8
+SHA1: 8a3c4d082e0187aeb30e91f70b9097705cc359fd
+MD5sum: 847bf4b05d2ee16defe105118de75899
+Description: UDisks2 library with Qt5
+ UDisks2 DBus interfaces binding of Qt5.
+
+Package: libudisks2-qt5-dev
+Source: udisks2-qt5
+Version: 5.0.0
+Architecture: arm64
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 50
+Depends: libudisks2-qt5 (= 5.0.0)
+Homepage: http://github.com/linuxdeepin/udisks2-qt5
+Priority: optional
+Section: admin
+Filename: pool/main/u/udisks2-qt5/libudisks2-qt5-dev_5.0.0_arm64.deb
+Size: 8472
+SHA256: 18f2b48bc5f10dddc0358a2c179c0c72484dbaa85fbdef1f1621ab3e0ba67f1c
+SHA1: 2ecf9a6aa683d04455ea52a9d37217da44ffc27e
+MD5sum: 0f017296fa4a76d9de6a3829f0f48c8a
+Description: libudisks2-qt5 developer package
+ UDisks2 DBus interfaces binding of Qt5.
+
+Package: startdde
+Version: 5.0.1-3
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 11835
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libglib2.0-0 (>= 2.61.2), libgnome-keyring0 (>= 2.20.3), libgtk-3-0 (>= 3.0.0), libpulse0 (>= 0.99.1), libx11-6, libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), dde-daemon (>> 3.24.1+), gnome-keyring, libpam-gnome-keyring, gvfs-bin, deepin-wm | deepin-metacity | dde-kwin, deepin-desktop-schemas (>= 3.2.4), dde-api
+Recommends: dde-qt5integration
+Conflicts: deepin-session, deepin-wm-switcher
+Breaks: startdde (<= 2.91.1)
+Provides: x-session-manager
+Homepage: http://github.com/linuxdeepin/startdde
+Priority: extra
+Section: admin
+Filename: pool/main/s/startdde/startdde_5.0.1-3_arm64.deb
+Size: 2425948
+SHA256: 9a8dbbb36c74287c24dcd4b819b966a197e504bdce8a15809aa58b33b4276206
+SHA1: ace029f2d4275e6ae5ff86f52ec2d7223f88b358
+MD5sum: fd59414577f6374cfdf9b86462068749
+Description: start deepin desktop environment
+ starter of deepin desktop environment.
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+
+Package: ubuntudde-dde
+Version: 1.1
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 8
+Depends: deepin-desktop-base, dde-desktop, dde-api, dde-dock, dde-launcher, dde-control-center, deepin-metacity, deepin-wm, startdde, dde-session-ui, dde-file-manager, dde-qt5integration, dde-disk-mount-plugin, eject, deepin-wallpapers, fonts-noto, fonts-noto-color-emoji, deepin-gtk-theme, deepin-sound-theme, deepin-icon-theme, deepin-menu, dde-daemon, dde-account-faces, deepin-desktop-schemas, deepin-mutter, dde-polkit-agent
+Recommends: dde-kwin, deepin-turbo, deepin-turbo-booster
+Conflicts: deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher
+Homepage: https://ubuntudde.com
+Priority: extra
+Section: metapackages
+Filename: pool/main/u/ubuntudde-dde/ubuntudde-dde_1.1_all.deb
+Size: 2096
+SHA256: 85af8723438f2233ddae334f47a573899300788e782cb6806685701c9e7cc0e2
+SHA1: b8d2cdd2b10820c963188c625bfdff821ebd3f7c
+MD5sum: 2123a896f7c73817daf1e8f3ee70cc5e
+Description: Deepin Desktop Environment for Ubuntu DDE
+ This is a meta package depends DDE (Deepin Desktop Environment).
+ .
+ You can safety remove it after installed.
+
+Package: ubuntudde-dde-extras
+Version: 1.0.1
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 8
+Depends: ubuntudde-dde
+Recommends: deepin-terminal, deepin-screenshot, dde-calendar, deepin-notifications, deepin-system-monitor
+Homepage: https://ubuntudde.com
+Priority: extra
+Section: metapackages
+Filename: pool/main/u/ubuntudde-dde-extras/ubuntudde-dde-extras_1.0.1_all.deb
+Size: 1912
+SHA256: 049c29a50cafa885a382e4ad85f513ffd31fef9f484d91da4975d212e026d71f
+SHA1: 2af5a37082ea1af8bcf0cb3a7d5e59558b118101
+MD5sum: 76db53b55b8525a7da7513d62904db62
+Description: Deepin Desktop Environment Extras for Ubuntu DDE
+ This is a meta package depends DDE Extras
+ .
+ You can safety remove it after installed.
+
+Package: ubuntudde-default-settings
+Version: 1.0.3-3
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 66
+Depends: iw
+Suggests: binfmt-support
+Priority: optional
+Section: admin
+Filename: pool/main/u/ubuntudde-default-settings/ubuntudde-default-settings_1.0.3-3_all.deb
+Size: 8452
+SHA256: 75b6948e013bf2ec3572f1b74157b47aca01054c3d7eabfe9527cd44d7eff9fa
+SHA1: db3178e8ff6fd4e805b750ffb3f044d98f628158
+MD5sum: 549dca920afd3812e95de411e26312a0
+Description: default settings for UbuntuDDE
+ This package does tweaking and to provide better experience of UbuntuDDE desktop
+ environment.
+
+Package: ubuntudde-default-settings-tuning
+Source: ubuntudde-default-settings
+Version: 1.0.3-3
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 13
+Priority: optional
+Section: admin
+Filename: pool/main/u/ubuntudde-default-settings/ubuntudde-default-settings-tuning_1.0.3-3_all.deb
+Size: 2468
+SHA256: b817ee4cbbb59bda0476ee4732bf919328a3e3f3cd101bb4447bef4e1f358e60
+SHA1: 1d9e5c1a35869a960ff9a9217c7e8588278e43ea
+MD5sum: 824b9dbfd04aabba950dd7e24d8b99d5
+Description: default settings for UbuntuDDE - misc overrides
+ This package does tweaking and to provide better experience of UbuntuDDE desktop
+ environment.
+
+Package: ubuntudde-desktop
+Source: ubuntudde-meta
+Version: 1.0-10
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 9
+Depends: acpi-support, adduser, alsa-base, alsa-utils, anacron, apt, apt-utils, at-spi2-core, avahi-autoipd, avahi-daemon, bash-completion, bc, bluez, bluez-cups, brltty, ca-certificates, cups, cups-bsd, cups-client, cups-filters, doc-base, eject, fonts-arphic-ukai, fonts-arphic-uming, fonts-dejavu-core, fonts-kacst-one, fonts-noto-cjk, fonts-sil-padauk, fonts-ubuntu, foomatic-db-compressed-ppds, ghostscript-x, gnome-menus, grub-themes-ubuntudde, gstreamer1.0-alsa, gstreamer1.0-packagekit, gstreamer1.0-plugins-base-apps, gstreamer1.0-pulseaudio, gtk-im-libthai, gvfs-bin, gvfs-fuse, htop, hunspell-en-au, hunspell-en-ca, hunspell-en-gb, hunspell-en-us, hunspell-en-za, ibus, ibus-gtk, ibus-gtk3, ibus-hangul, ibus-libpinyin, ibus-m17n, ibus-mozc, ibus-table, ibus-table-cangjie, ibus-table-quick-classic, ibus-table-wubi, ibus-unikey, im-config, init, inputattach, kerneloops, language-pack-en, laptop-detect, libatk-adaptor, libgail-common, libnotify-bin, libnss-mdns, libpam-gnome-keyring, libproxy1-plugin-gsettings, libproxy1-plugin-networkmanager, libu2f-udev, libwmf0.2-7-gtk, locales, lsb-release, mount, mousetweaks, nano, net-tools, netbase, netcat-openbsd, netplan.io, openprinting-ppds, orca, p7zip-full, packagekit, passwd, pcmciautils, policykit-desktop-privileges, printer-driver-brlaser, printer-driver-c2esp, printer-driver-foo2zjs, printer-driver-m2300w, printer-driver-min12xxw, printer-driver-pnm2ppa, printer-driver-ptouch, printer-driver-pxljr, printer-driver-sag-gdi, printer-driver-splix, pulseaudio, pulseaudio-module-bluetooth, python3, resolvconf, rfkill, rsync, sensible-utils, slick-greeter, software-properties-gtk, speech-dispatcher, spice-vdagent, sudo, tzdata, ubuntu-advantage-tools, ubuntu-drivers-common, ubuntu-keyring, ubuntu-minimal, ubuntudde-dde, ubuntudde-default-settings, ubuntudde-icon-theme, ubuntudde-plymouth-logo, ubuntudde-plymouth-text, udev, unzip, user-setup, vim-tiny, whiptail, wireless-tools, wpasupplicant, xcursor-themes, xdg-user-dirs, xdg-user-dirs-gtk, xdg-utils, xkb-data, xorg, zenity, zip
+Recommends: adapta-gtk-theme, atril, deja-dup, dmz-cursor-theme, file-roller, firefox, friendly-recovery, gedit, gimp, gnome-2048, gnome-accessibility-themes, gnome-bluetooth, gnome-calculator, gnome-chess, gnome-disk-utility, gnome-font-viewer, gnome-icon-theme, gnome-mahjongg, gnome-mpv, gnome-power-manager, gnome-session-bin, gnome-software, gnome-software-plugin-snap, gnome-sudoku, gthumb, hunspell-de-at-frami, hunspell-de-ch-frami, hunspell-de-de-frami, hunspell-es, hunspell-fr, hunspell-it, hunspell-pt-br, hunspell-pt-pt, hunspell-ru, language-pack-de, language-pack-es, language-pack-fr, language-pack-pt, language-pack-ru, libreoffice-calc, libreoffice-draw, libreoffice-gtk, libreoffice-gtk2, libreoffice-gtk3, libreoffice-impress, libreoffice-writer, neofetch, rsyslog, simple-scan, snapd, software-properties-common, synaptic, thunderbird, ubuntudde-dde-extras, update-notifier, wamerican, wfrench, wportuguese
+Provides: ubuntudde-desktop, ubuntudde-minimal, ubuntudde-standard
+Homepage: https://github.com/UbuntuDDE
+Priority: optional
+Section: metapackages
+Filename: pool/main/u/ubuntudde-meta/ubuntudde-desktop_1.0-10_arm64.deb
+Size: 3588
+SHA256: 485620a446fdb6d75849b189588ab4a2ba224f19a9bd88bf99076aa5178b7b77
+SHA1: 3683879a725714c3cc2c01149f62efdef5a5402e
+MD5sum: 69d626c67e64cd0daf0ea66b0fef9aba
+Description: Complete desktop of Ubuntu DDE
+ This metapackage installs the complete Ubuntu DDE desktop.
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: ubuntudde-icon-theme
+Version: 2020.04.02
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 192
+Depends: deepin-icon-theme, papirus-icon-theme
+Priority: optional
+Section: x11
+Filename: pool/main/u/ubuntudde-icon-theme/ubuntudde-icon-theme_2020.04.02_all.deb
+Size: 11552
+SHA256: cdb750693ada0d7229e92d0b6755ab9b4767e5997beea1e905644ceb3ea88d92
+SHA1: ee62db7257dd84a1bad4b985fcf71996d6d32a22
+MD5sum: e4166a8129ca1f1a2fa2fd6045f42686
+Description: UbuntuDDE Icons
+ This package is UbuntuDDE Icon Pack
+
+Package: ubuntudde-minimal
+Source: ubuntudde-meta
+Version: 1.0-10
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 9
+Depends: adduser, apt, apt-utils, bzip2, console-setup, debconf, debconf-i18n, eject, gcc, grub-themes-ubuntudde, init, initramfs-tools, iproute2, iputils-ping, isc-dhcp-client, kmod, less, lightdm, locales, lsb-release, mount, netbase, netcat-openbsd, netplan.io, passwd, python3, sensible-utils, slick-greeter, sudo, tzdata, ubuntu-advantage-tools, ubuntu-keyring, udev, vim-tiny, whiptail
+Recommends: rsyslog
+Provides: ubuntudde-desktop, ubuntudde-standard
+Homepage: https://github.com/UbuntuDDE
+Priority: optional
+Section: metapackages
+Filename: pool/main/u/ubuntudde-meta/ubuntudde-minimal_1.0-10_arm64.deb
+Size: 2712
+SHA256: a57da237ccf6a814950560a76370f1ddc431796ade5b5842ceec23fb2ef74e37
+SHA1: 723e14e48589a445196691987ec53939b3b489db
+MD5sum: 41021487c98fd25269b55771523a4964
+Description: Minimal core of Ubuntu DDE
+ This metapackage depends on all of the packages in the Ubuntu DEE minimal system,
+ that is a functional command-line system with the following capabilities:
+ .
+  - Boot
+  - Detect hardware
+  - Connect to a network
+  - Install packages
+  - Perform basic diagnostics
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: ubuntudde-plymouth-logo
+Source: ubuntudde-plymouth-theme
+Version: 1.0
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 143
+Depends: plymouth, plymouth-label
+Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Provides: plymouth-theme
+Priority: optional
+Section: x11
+Filename: pool/main/u/ubuntudde-plymouth-theme/ubuntudde-plymouth-logo_1.0_all.deb
+Size: 50120
+SHA256: 7e0a484781b7018f89bea285ee661b9a5d3d823e31f732e4dbc9c45cee5bb387
+SHA1: 1f34f0e68618c28b060024436510e9df9f386fa4
+MD5sum: e884b7b1bcbb2e929ee2685eb7ee62b3
+Description: graphical boot animation and logger - ubuntudde-logo theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the default budgie-remix-logo theme.
+
+Package: ubuntudde-plymouth-text
+Source: ubuntudde-plymouth-theme
+Version: 1.0
+Architecture: all
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 17
+Depends: plymouth, plymouth-theme-ubuntu-text
+Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Replaces: plymouth (<< 0.8.1-1~)
+Provides: plymouth-theme
+Priority: optional
+Section: x11
+Filename: pool/main/u/ubuntudde-plymouth-theme/ubuntudde-plymouth-text_1.0_all.deb
+Size: 2932
+SHA256: 5bb211604c75fae9650cd5662046550025a10ff2c1b0d0af1aa7e37b805ba56d
+SHA1: ad966e25d2e2b81ed0322815cd0f40607b981737
+MD5sum: 4d8e0945ddb4615f7db721a93fc238c9
+Description: graphical boot animation and logger - ubuntudde-text theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the default ubuntudde-text text theme used when no
+ support for a graphical theme is found on your system.
+
+Package: ubuntudde-standard
+Source: ubuntudde-meta
+Version: 1.0-10
+Architecture: arm64
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Installed-Size: 9
+Depends: busybox-static, cpio, cron, dmidecode, dnsutils, dosfstools, ed, file, friendly-recovery, ftp, grub-themes-ubuntudde, hdparm, hfsutils, info, iptables, iputils-tracepath, language-selector-common, libpam-systemd, logrotate, lshw, lsof, ltrace, man-db, mime-support, mtr-tiny, nano, parted, pciutils, psmisc, rsync, strace, tcpdump, time, ubuntudde-dde, ubuntudde-default-settings, ubuntudde-icon-theme, ubuntudde-plymouth-logo, ubuntudde-plymouth-text, usbutils, wget
+Recommends: apparmor, apt, apt-utils, bash-completion, command-not-found, cryptsetup, irqbalance, jfsutils, lvm2, manpages, mlocate, ntfs-3g, openssh-client, plymouth, plymouth-theme-ubuntu-text, popularity-contest, telnet, ufw, update-manager-core
+Homepage: https://github.com/UbuntuDDE
+Priority: optional
+Section: metapackages
+Filename: pool/main/u/ubuntudde-meta/ubuntudde-standard_1.0-10_arm64.deb
+Size: 2772
+SHA256: 2b0faa83523ecb6ec3df5574179ad3bd17f5c22f37755ca9b4e9b82c601441f9
+SHA1: 3af67e613fb2ba4cd34bb1b68a97e9fec696259f
+MD5sum: 8d814ca34f8171ed1a8b17df993375e2
+Description: CLI-only components of Ubuntu DDE
+ This metapackage depends on most of non-GUI packages from Ubuntu DDE.
+ .
+ This set of packages provides a comfortable command-line Unix-like
+ environment.
+ .
+ It is used to ensure proper upgrades, so it is recommended that it not be
+ removed.
+

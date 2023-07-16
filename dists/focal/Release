@@ -1,0 +1,38 @@
+Codename: focal
+Date: Sun, 16 Jul 2023 12:57:34 UTC
+Architectures: arm64 amd64
+Components: main
+Description: test
+MD5Sum:
+ 701f9143c45e966c8fbe1af386feb4c2 140982 main/binary-arm64/Packages
+ 55421af56a69c889a327e7f7c39351e9 32366 main/binary-arm64/Packages.gz
+ 31bc79f901958f8c14c708f9a92c0dd1 54 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
+ 32b6ccdf147c95c6f1fed320e7547d14 142082 main/binary-amd64/Packages
+ 588968b74e620ab5c25f870e0eacc06e 32576 main/binary-amd64/Packages.gz
+ d65aaea658f9d09a8eb39e9525cda351 54 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
+SHA1:
+ 7b22cd2657d2402f378a751d64bcc326b038ebe5 140982 main/binary-arm64/Packages
+ ceb808d4b2d65a3c06bcbabab5bf79dbbb14f0a8 32366 main/binary-arm64/Packages.gz
+ 9f0dcbaf836c3eb1c07db972ea92a255b1a04eb1 54 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
+ 1b0d37a1b715b2fd178fe1c1a715fa07903db1aa 142082 main/binary-amd64/Packages
+ f9efd7b7aff049d7e519d61c33e2a408172ac1b7 32576 main/binary-amd64/Packages.gz
+ 26e46f3ddb545d47201cf5b51f204eac84721e74 54 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
+SHA256:
+ a4eebee3c8f938375721d506654b1711e48d20fa0c56a98f31a353065d4cae16 140982 main/binary-arm64/Packages
+ 27fc057dc7b6fb1db66b70046a1b518bab9eab3efa74cf549e28bf0eb1fa76a0 32366 main/binary-arm64/Packages.gz
+ d00f64baab8ad7bd9d35801920ed8dbd6bcaded6f3c6fc7868a65a42ba679577 54 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
+ 02e6907e9d12b44d491c88bafac11bccb79a5895cbecc181fe038f3bb2e1378b 142082 main/binary-amd64/Packages
+ 2592a0bd8739c00c6624d84e17abda8dda451431117777dee2a2bedd34bd0926 32576 main/binary-amd64/Packages.gz
+ 50ab84494dd734ae389b26268853293589fee6851b8009b47934f151806c6583 54 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
