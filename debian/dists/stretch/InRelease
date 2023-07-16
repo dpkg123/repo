@@ -1,0 +1,57 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: stretch
+Date: Sun, 16 Jul 2023 12:59:10 UTC
+Architectures: amd64 i386
+Components: main
+Description: test
+MD5Sum:
+ e64f7f759d06897c760691c370e08a65 20512 main/binary-amd64/Packages
+ 106590c1a1ac17190f38d2c1fdd77e9e 7419 main/binary-amd64/Packages.gz
+ d65aaea658f9d09a8eb39e9525cda351 54 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
+ ed7b4992ba7fea916201c7aaa2b9d968 31464 main/binary-i386/Packages
+ 31153732a6f620e57ac32f4f8953fd1e 9483 main/binary-i386/Packages.gz
+ 7df642febb9a04f753ecbca3346c45c2 53 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
+SHA1:
+ 708b41ca27ed1943069e6eff3da038ec82d6e19a 20512 main/binary-amd64/Packages
+ 527be15ba53952874688435576a332f2d6961031 7419 main/binary-amd64/Packages.gz
+ 26e46f3ddb545d47201cf5b51f204eac84721e74 54 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
+ 9fb36a9b9f170c52115d9887e91436be0132188e 31464 main/binary-i386/Packages
+ 055cf43ceecb220c479a1fd92b67649fe036d53d 9483 main/binary-i386/Packages.gz
+ c5e2904e02589b34310df533d7f65056ac22e45e 53 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
+SHA256:
+ fcbb6e9382bb32cb8121d840c9a04ff9524d90f7e68fb2c6c26c0d9584961b4d 20512 main/binary-amd64/Packages
+ d07f39d0884233e989aa55a24c4fbc286eb1f20d3d37d69fb01b2d896487257e 7419 main/binary-amd64/Packages.gz
+ 50ab84494dd734ae389b26268853293589fee6851b8009b47934f151806c6583 54 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
+ bb4cd3720a38200a7cc69a6cd2e749b3f74b3223f51280a78f80cac2915cf289 31464 main/binary-i386/Packages
+ c8bbc2c5ad380fc6805c02106e31461a8e2df458ad6f1253e50bc01d234cee41 9483 main/binary-i386/Packages.gz
+ 167a495afc28425150caf417ff9cfdd95bcf2b79b1c85c63f90d86d6fe30e3f7 53 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEQkEc9727ziV57Ixrmceyo8mMlp4FAmSz6Z8ACgkQmceyo8mM
+lp6kZA/8Cmh0oxNJbCamXtgeQF5nGQsTpf/oyzqiYjNQH34oYM8Ey0jrtFT1ilD+
+rmtZWfw+8FpW06f7wo8OXENKwRd0mnKPr07J9KqPtvv3dtYut+YrP1W3YcFE5kGX
+08pl8Z/9kdExyhHkMk2Ts/GRrYRZoINsJAgVu7rIiEDRlaX3RZYzh+E8SnUujgWK
+zH195l/PPQXNIZ2pUy7mkXxGP1J8YA7QjakakZwiiLKOmhO50AO1FGgWDILlS25Z
+U0OD6GfDq/RZXeLzM5oFimTj5yaBCoqWYjTAXZ8IFdPRKqUd+djuiqY8j2WaejUH
+e3M9KXEbZcoRPn/6S5ZP/gB915cqBLjlROjwfQQZtJJVEflitibMkIOyTrUWrtET
+F79Hi4K0PVvwI+ESbe4EKtIpofwloY5XNxDjgI0DClklYwxjWuWjCm0aZcpAP3ze
+rj7sE83+QGelTlFS9oeGJOJaatfYXM7BOrNl7GtdJcKDVgO4WO9qHTz3RQmqTXg9
+gkZFEsZlzPbmKaKYhzlng26Q90rC+KKhTYbhra9MFpcLc87PtWSQIunygbckWLnJ
+bTb5o5EEEyLWO5TaLuqsNjicTTzh65MCHYOOdMrjtIGgbhKloxltKJvmvMC6Ijmi
+1MZ5roElS5ct+7RKCJmwr/o6P+rZdDab3tu7GIX+dYlzSvKQnQ4=
+=RzBK
+-----END PGP SIGNATURE-----
