@@ -1,6 +1,8 @@
 ---
 title: changelog
 date: 2023-07-20 23:24:22
+tags:
+- changelog
 ---
 # Change log
 
