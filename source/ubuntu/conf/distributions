@@ -1,7 +1,15 @@
 Codename: focal
 Update: sink
-Architectures: arm64 amd64 
-Components: main 
+Architectures: arm64 amd64
+Components: main
 Description: test
 UDebComponents: main 
+SignWith: C98C969E
+
+Codename: jammy
+Update: sink
+Architectures: arm64 amd64
+Components: main
+Description: test
+UDebComponents: main
 SignWith: C98C969E
