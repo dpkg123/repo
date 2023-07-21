@@ -28,7 +28,7 @@ link: https://repo-pied-three.vercel.app/ubuntu
 
 description: ubuntudde mirror repo
 
-version: focal ~~jammy(下次一定)~~
+version: focal jammy
 
 architecture: amd64 arm64
 ```
@@ -40,7 +40,7 @@ description: some deepin15 soft repo
 
 version: stretch
 
-siftware list: ~~下次一定~~
+siftware list: WIP
 
 architecture: i386,amd64
 ```
