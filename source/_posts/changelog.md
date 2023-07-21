@@ -6,6 +6,10 @@ tags:
 ---
 # Change log
 
+### 2023-07-20
+
+- add ubuntu22.04 dde repo
+
 ### 2023-07-19
 
 - add apark store4.2.6(amd64,arm64)
