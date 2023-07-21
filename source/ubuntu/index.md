@@ -8,7 +8,7 @@ date: 2023-07-20 23:56:26
 ```bash
 $ sudo  echo 'deb https://repo-pied-three.vercel.app/ubuntu focal main' > /etc/apt/sources.list.d/1.list
 ```
-如果是ubuntu22.0,输入
+如果是ubuntu22.04,输入
 ```bash
 $ sudo  echo 'deb https://repo-pied-three.vercel.app/ubuntu jammy main' > /etc/apt/sources.list.d/1.list
 ```
