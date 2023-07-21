@@ -29,7 +29,7 @@ banner_background_hide_shapes: false # 是否隐藏 Banner 背景圆形
 banner_background_color_type: 'shape-primary' # Banner 渐变样式，Banner 背景图会覆盖该选项，可选值: shape-primary, shape-default, shape-dark, bg-gradient-success, bg-gradient-info, bg-gradient-warning, bg-gradient-danger
 
 # 侧栏
-sidebar_banner_title: 'debian repo' # 侧栏标题，留空则跟随博客标题
+sidebar_banner_title: '' # 侧栏标题，留空则跟随博客标题
 sidebar_banner_subtitle: '' # 侧栏子标题，留空则不显示，设为 --hitokoto-- 调用一言
 sidebar_announcement: '' # 侧栏公告，留空则不显示
 leftbar_menu: # 侧栏顶部菜单，支持无限层级菜单嵌套
@@ -99,8 +99,8 @@ argon_mathjax_v2_cdn_url: //cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config
 katex_cdn_url: //cdn.jsdelivr.net/npm/katex@0.11.1/dist/ # Katex CDN 地址
 
 # 代码高亮
-enable_code_highlight: false # 是否启用 Highlight.js 代码高亮
-code_theme: vs2015 # 代码高亮主题
+#enable_code_highlight: false # 是否启用 Highlight.js 代码高亮
+#code_theme: vs2015 # 代码高亮主题
 
 # 脚本
 custom_html_head: '' # 页头脚本，HTML
