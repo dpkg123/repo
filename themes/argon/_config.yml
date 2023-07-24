@@ -14,10 +14,9 @@ toolbar_icon_link: '' # 顶栏图标链接，点击时跳转
 toolbar_title: '' # 顶栏标题，留空则跟随博客标题
 toolbar_menu: # 顶栏菜单，支持二级菜单
   首页: /
-  归档: /archives
-  标签: /tags
+  源码: https://github.com/dpkg123/repo/
   变更记录: /2023/07/20/changelog/
-  博客: https://dpkg123.github.io
+  博客: https://dpkg123.netlify.app/
 
 # Banner
 banner_title: '' # Banner 标题，留空则跟随博客标题
@@ -35,9 +34,9 @@ sidebar_announcement: '' # 侧栏公告，留空则不显示
 leftbar_menu: # 侧栏顶部菜单，支持无限层级菜单嵌套
   首页: /
   归档: /archives
-  标签: /tags
+  源码: https://github.com/dpkg123/repo/
   二级菜单:
-    博客: https://dpkg123.github.io
+    博客: https://dpkg123.netlify.app/
     变更记录: /2023/07/20/changelog
 sidebar_auther_image: '/assets/img/auther.jpg' # 侧栏作者头像
 sidebar_auther_name: 'dpkg123' # 侧栏作者名，留空则跟随博客名
