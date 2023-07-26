@@ -27,12 +27,26 @@ tags:
 - add baidunetdisk 4.17.7(amd64)
 - change sougoupinyin from 4.0.1.2800 to 4.2.5
 
+### 2023-05-xx
+
+- 移除了i386架构的支持
+
 ### 2023-05-10
 
 - add app editor 1.1.1(amd64,arm64)
 - add ciaro 0.2.40(amd64,arm64)
 - add linuxqq 2.0.0-b2(amd64,arm64)
 
+### 2023-04-xx
+
+- 软件站点由https://dabao1955.github.io/packages/debian 迁移到 https://dabao1955.github.io/repos/debian
+- 软件站点由https://dabao1955.github.io/packages/debian 迁移到 https://dpkg123.site/repos/debian
+
 ### 2023-04-10
 
-- init 
+- init
+
+
+
+
+n:部分信息来自于https://dabao1955.github.io/repos/

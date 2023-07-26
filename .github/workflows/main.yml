@@ -1,0 +1,71 @@
+name: generuate repo site 
+
+on:
+
+   push:    
+
+   pull_request:
+
+   
+
+    types: [opened, synchronize, edited, reopened]
+
+    
+
+jobs:
+
+  generuate-repo-site:
+
+    runs-on: ubuntu-latest
+
+    
+
+    steps:
+
+      - uses: actions/checkout@v2
+
+      - name: Setup environment
+
+      
+
+        uses: actions/setup-node@v3
+
+        with:
+
+         node-version: 18
+
+      
+
+      - name: Install Hexo
+
+        run: |
+
+      
+
+          npm i -g hexo hexo-cli
+
+      - name: Pull blog source
+
+        run: |
+
+          git clone https://github.com/dpkg123/repo
+
+      - name: Build blog
+
+        run: |
+
+          cd repo
+
+          sudo rm -rf .git*
+
+          hexo cl && hexo g
+
+      - name: Upload blog to artifact
+
+        uses: actions/upload-artifact@v3
+
+        with:
+
+          name: repo
+
+          path: repo/public/*
