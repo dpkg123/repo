@@ -12,13 +12,13 @@ top: true
 
 ### main repo
 ```
-link: https://dpkg123.github.io/repos/debian
+link: https://dpkg123.netlify.app/repos/debian
 
 description: main debian stable repo
 
 version: stable
 
-software list: https://dpkg123.github.io/repos/
+software list: https://dpkg123.netlify.app/repos/
 
 architecture: amd64,arm64,armhf,loongarch64
 ```
