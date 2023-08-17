@@ -6,6 +6,10 @@ tags:
 ---
 # Change log
 
+### 2023-08-17
+
+- update bbg to 20230817
+
 ### 2023-08-04
 
 - add xmcl 0.39.75(amd64,arm64)
