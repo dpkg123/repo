@@ -8,7 +8,7 @@ tags:
 
 ### 2023-08-17
 
-- update bbg to 20230817
+- delete bbg
 
 ### 2023-08-04
 
