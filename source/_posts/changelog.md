@@ -8,7 +8,8 @@ tags:
 
 ### 2023-10-31
 
-- add x minecraft launcher 0.37.6(amd64,arm64)
+- update xmcl to 0.37.6
+- update fantascene-dynamic-wallpaper to 1.6.1
 
 ### 2023-08-17
 
@@ -16,7 +17,7 @@ tags:
 
 ### 2023-08-04
 
-- add xmcl 0.39.75(amd64,arm64)
+- add xmcl 0.32.75(amd64,arm64)
 - upgrade typora to 1.6.6
 
 ### 2023-07-20
