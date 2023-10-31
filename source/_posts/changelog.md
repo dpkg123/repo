@@ -6,6 +6,10 @@ tags:
 ---
 # Change log
 
+### 2023-10-31
+
+- add x minecraft launcher 0.37.6(amd64,arm64)
+
 ### 2023-08-17
 
 - delete bbg
