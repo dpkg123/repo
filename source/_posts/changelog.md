@@ -6,6 +6,10 @@ tags:
 ---
 # Change log
 
+### 2023-11-20
+
+- add iease-music 1.3.4(amd64)
+
 ### 2023-10-31
 
 - update xmcl to 0.37.6
