@@ -5,6 +5,9 @@ tags:
 - changelog
 ---
 # Change log
+### 2024-01-15
+
+- upadte xmcl to 0.39.14
 
 ### 2023-11-20
 
