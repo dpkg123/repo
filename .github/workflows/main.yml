@@ -39,14 +39,11 @@ jobs:
       - name: Install Hexo
 
         run: |
-
-      
-
-          npm i -g hexo hexo-cli
+          yarn global add hexo-cli
 
       - name: Build blog
         run: |
-          npm install --force --save
+          yarn install --frozen-lockfile
           hexo cl && hexo g
 
       - name: Upload blog to artifact
