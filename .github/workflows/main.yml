@@ -23,21 +23,15 @@ jobs:
     steps:
 
       - uses: actions/checkout@v4
-
-      - name: Setup environment
-
-      
-
-        uses: actions/setup-node@v4
-
         with:
-
-         node-version: 18
-
-      
+          submodule: true
+          
+      - name: Setup environment
+        uses: actions/setup-node@v4
+        with:
+         node-version: 18      
 
       - name: Install Hexo
-
         run: |
           yarn global add hexo-cli
 
