@@ -43,7 +43,7 @@ jobs:
 
       - name: Build blog
         run: |
-          yarn install --verbose
+          yarn install
           hexo cl && hexo g
 
       - name: Upload blog to artifact
