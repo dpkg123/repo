@@ -3,7 +3,7 @@ name: generuate repo site
 on:
 
    push:    
-
+   workflow_dispatch:
    pull_request:
 
    
@@ -53,16 +53,12 @@ jobs:
       - name: Build blog
 
         run: |
-
-          cd repo
-
           sudo rm -rf .git*
           npm install --force --save
-
           hexo cl && hexo g
 
       - name: Upload blog to artifact
-
+        github.event_name == 'workflow_dispatch'
         uses: actions/upload-artifact@v3
 
         with:
