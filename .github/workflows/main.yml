@@ -5,26 +5,17 @@ on:
    push:    
    workflow_dispatch:
    pull_request:
-
-   
-
     types: [opened, synchronize, edited, reopened]
 
-    
-
+   
 jobs:
-
   generuate-repo-site:
-
     runs-on: ubuntu-latest
-
-    
-
     steps:
 
       - uses: actions/checkout@v4
         with:
-          submodule: true
+          submodules: true
           
       - name: Setup environment
         uses: actions/setup-node@v4
