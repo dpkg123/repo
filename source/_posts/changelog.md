@@ -5,6 +5,7 @@ tags:
 - changelog
 ---
 # Change log
+> 注意: 若没有特殊说明，一般指的是 https://dpkg123.netlify.app/repos/debian
 ### 2024-01-29
 
 - add gb studio 3.1.0(amd64)
