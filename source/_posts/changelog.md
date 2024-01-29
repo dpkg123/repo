@@ -5,6 +5,10 @@ tags:
 - changelog
 ---
 # Change log
+### 2024-01-29
+
+- add gb studio 3.1.0(amd64)
+- add ms365?electron 1.1.0(amd64)
 ### 2024-01-15
 
 - upadte xmcl to 0.39.14
