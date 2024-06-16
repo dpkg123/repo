@@ -32,15 +32,3 @@ version: focal jammy
 
 architecture: amd64 arm64
 ```
-### deepin soft repo
-```
-link: https://repo-pied-three.vercel.app/debian
-
-description: some deepin15 soft repo
-
-version: stretch
-
-siftware list: WIP
-
-architecture: i386,amd64
-```
