@@ -1,7 +1,0 @@
-Codename: stretch
-Update: sink
-Architectures: amd64 i386
-Components: main 
-Description: test
-UDebComponents: main 
-SignWith: C98C969E
